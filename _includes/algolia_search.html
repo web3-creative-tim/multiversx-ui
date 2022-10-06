@@ -1,0 +1,63 @@
+<script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-plugin-query-suggestions"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/algoliasearch/4.14.2/algoliasearch-lite.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-plugin-recent-searches"></script>
+
+<script>
+  const { autocomplete, getAlgoliaResults } = window['@algolia/autocomplete-js'];
+  const { createQuerySuggestionsPlugin } = window[
+    '@algolia/autocomplete-plugin-query-suggestions'
+  ];
+  const appId = '0ACFCDRMR7';
+  const apiKey = 'e4b3bbf6e7462ad7872f677d0347cfa7';
+  const searchClient = algoliasearch(appId, apiKey);
+  const { createLocalStorageRecentSearchesPlugin } = window[
+     '@algolia/autocomplete-plugin-recent-searches'
+   ];
+
+  const recentSearchesPlugin = createLocalStorageRecentSearchesPlugin({
+    key: 'search',
+  });
+
+  const querySuggestionsPlugin = createQuerySuggestionsPlugin({
+    searchClient,
+    indexName: 'Docs_query_suggestions',
+    getSearchParams({ state }) {
+        return { hitsPerPage: state.query ? 5 : 10 };
+      },
+  });
+
+  const autocompleteSearch = autocomplete({
+  container: '#autocomplete',
+  openOnFocus: true,
+  plugins: [recentSearchesPlugin],
+  getSources() {
+    return [
+      {
+        sourceId: 'querySuggestions',
+        getItemInputValue: ({ item }) => item.query,
+        getItems({ query }) {
+          return getAlgoliaResults({
+            searchClient,
+            queries: [
+              {
+                indexName: 'Docs_query_suggestions',
+                query,
+                params: {
+                  hitsPerPage: 4,
+                },
+              },
+            ],
+          });
+        },
+        templates: {
+          item({ item, html }) {
+            console.log(item);
+            return html`<a href="${item.url}">${item.name}</a>`;
+          },
+        },
+      },
+    ];
+  },
+});
+</script>

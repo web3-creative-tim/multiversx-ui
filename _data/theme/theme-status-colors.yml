@@ -1,0 +1,8 @@
+- name: info
+  hex: "#172b4d"
+- name: success
+  hex: "#5e72e4"
+- name: warning
+  hex: "#f4f5f7"
+- name: danger
+  hex: "#11cdef"

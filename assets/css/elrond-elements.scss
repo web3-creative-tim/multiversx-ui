@@ -1,0 +1,36 @@
+---
+# Elrond Elements
+---
+
+// =========================================================
+// * Elrond Elements - v1.0.0 - Alpha
+// =========================================================
+//
+// * Product Page: https://elrond-elements.com
+// * Copyright site.year Creative Tim (https://www.creative-tim.com)
+//
+// Coded by www.creative-tim.com
+//
+// =========================================================
+//
+// * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+
+
+  // Bootstrap Functions
+  @import "bootstrap/functions";
+
+  // Custom Variables
+  @import "custom/theme";
+
+  // Theme Variables
+  @import "core/variables";
+
+  // Bootstrap Core
+  @import "bootstrap/bootstrap";
+
+  // Theme Core
+  @import "core/theme";
+
+  // Custom Variables
+  @import "custom/styles";

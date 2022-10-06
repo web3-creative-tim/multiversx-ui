@@ -1,0 +1,34 @@
+.card {
+  &.card-nft{
+    .btn-hover-nft {
+      opacity: 0;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      top: 50%;
+    }
+    &:hover {
+      .btn-hover-nft {
+        opacity: 1;
+        z-index: 10;
+        transform: translateY(-50%) !important;
+        -webkit-transform: translateY(-50%) !important;
+      }
+      .card-header{
+        .hover-img{
+          &::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba($dark, .1);
+            border-radius: $border-radius-lg;
+          }
+        }
+      }
+    }
+  }
+}

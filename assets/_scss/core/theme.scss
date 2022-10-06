@@ -1,0 +1,39 @@
+// Variables
+@import "variables/navbar-vertical";
+@import "variables/social-buttons";
+@import "variables/breadcrumb";
+
+// Mixin
+@import "mixins/mixins";
+
+// Core Components - extra styling
+@import "accordion";
+@import "alert";
+@import "avatars";
+@import "backgrounds";
+@import "badge";
+@import "buttons";
+@import "breadcrumbs";
+@import "cards";
+@import "components";
+@import "dropdown";
+@import "dropup";
+@import "header";
+@import "forms/forms";
+@import "footer";
+@import "gradients";
+@import "info-areas";
+@import "misc";
+@import "navbar";
+@import "navbar-vertical";
+@import "nav";
+@import "pagination";
+@import "popovers";
+@import "progress";
+@import "rtl";
+@import "tables";
+@import "tooltips";
+@import "typography";
+
+// Plugins
+@import "plugins/plugins";

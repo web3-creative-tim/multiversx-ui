@@ -1,0 +1,135 @@
+title: Elrond Elements
+email: rares@creative-tim.com
+description: >-
+  Start your development with a Design System for Elrond.
+url: ''
+
+sidebar_yml: "sidebar.yml"
+destination: _site/
+sass:
+  sass_dir: assets/_scss
+  style: compressed
+
+collections:
+  docs:
+    output: true
+    sidebar_label: "Docs"
+  includes:
+    output: true
+    sidebar_label: "Includes"
+  layouts:
+    output: true
+    sidebar_label: "Layouts"
+
+defaults:
+  -
+    scope:
+      path: "docs"
+      type: "pages"
+    values:
+      layout: "page"
+      title: "Title page"
+      description: "Description Page"
+      group: "components"
+      design: "design"
+      is_pro: true
+      toc: true
+  -
+    scope:
+      path: "blog"
+      type: "pages"
+    values:
+      layout: "blog"
+      title: "Title blog post"
+      description: "Description Blog"
+      toc: true
+
+
+
+algolia_search: false
+
+twitter_username: jekyllrb
+github_username: web3-creative-tim
+github_repo: elrond-elements
+docs_assets:
+  elrond-elements:
+    head_title: Elrond Elements by Creative Tim
+
+plugins:
+  - jekyll-toc
+  - jekyll-tabs
+kramdown:
+  auto_ids: true
+docs:
+  version: 1.0.0
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gulpfile.js
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - package-lock.json
+  - package.json
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - build.sh
+  - _config.yml
+  - commit.sh
+  - deploy.sh
+  - _includes/
+  - tmp
+author: Creative Tim
+website_url: ''
+product_purchase:
+product_download:
+product_name: 'Elrond Elements'
+blog: ''
+presentation: ''
+contact: ''
+twitter: ''
+facebook: ''
+instagram: ''
+github: ''
+dribbble: ''
+google: ''
+
+# builder variable
+product_builder:
+
+doc_exclude_group: []
+doc_exclude_files: []
+doc_pro_files: []
+
+preview_free: ''
+preview_pro:
+
+github_issues_free: ''
+github_issues_pro: ''
+
+
+# Meta-tags variables
+meta:
+  twitter:
+    card: product
+    site_name: '@creativetim'
+    title: Elrond Elements by Creative Tim
+    creator: '@creativetim'
+
+  facebook:
+    id: 655968634437471
+    title: Elrond Elements by Creative Tim
+    type: article
+    url: ''
+    site_name: Creative Tim
+
+  description: Start your development with a Design System for Elrond.
+  image: https://s3.amazonaws.com/creativetim_bucket/products/450/original/opt_sd_free_thumbnail.png
+
+# permalink: /:title/
+
+pro_badge_color: primary

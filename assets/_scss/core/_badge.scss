@@ -1,0 +1,9 @@
+@each $prop, $value in $theme-colors {
+  .badge.bg-#{$prop} {
+    background: rgba($value, .1) !important;
+  }
+}
+.badge {
+  text-transform: inherit;
+  line-height: 1.2;
+}

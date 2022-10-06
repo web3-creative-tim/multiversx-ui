@@ -1,0 +1,137 @@
+<script src="{{ root }}assets/js/plugins/prism.js" type="text/javascript"></script>
+<script src="{{ root }}assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="{{ root }}assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="{{ root }}assets/js/plugins/tabs.js" type="text/javascript"></script>
+<script src="{{ root }}assets/js/elrond-elements.js" type="text/javascript"></script>
+
+{% if site.algolia_search %}
+  {% include algolia_search.html %}
+{% endif %}
+
+{% if page.plugin.charts %}
+<!-- Chart Plugin -->
+<script src="{{ root }}assets/js/plugins/chartjs.min.js" type="text/javascript"></script>
+
+<script>
+
+var ctx = document.getElementById("chart-line").getContext("2d");
+
+const gradient = ctx.createLinearGradient(0, 230, 0, 50);
+gradient.addColorStop(1, 'rgba(27,70,194, 0.4)');
+gradient.addColorStop(0.2, 'rgba(72, 72, 176, 0.0)');
+gradient.addColorStop(0, 'rgba(155, 119, 255, 0)');
+
+new Chart(ctx, {
+  type: "line",
+  data: {
+    labels: [
+      'Sep 21',
+      'Sep 22',
+      'Sep 23',
+      'Sep 24',
+      'Sep 25',
+      'Sep 25',
+      'Sep 27',
+    ],
+    datasets: [
+      {
+        label: 'Volume',
+        data: ['46.17', '47.73', '47.79', '48.02', '46.38', '46.74', '48.12'],
+        fill: 'start',
+        backgroundColor: gradient,
+        borderColor: '#1b46c2',
+        borderWidth: 2,
+        pointRadius: 3,
+        pointBorderColor: '#1b46c2',
+        pointBackgroundColor: '#1b46c2',
+        tension: 0.3,
+      },
+    ],
+  },
+  options: {
+    maintainAspectRatio: false,
+    responsive: true,
+    plugins: {
+      // show legends for our graph
+      legend: {
+        display: false,
+        position: 'top',
+        align: 'end',
+        labels: {
+          boxWidth: 7,
+          boxHeight: 7,
+          pointStyle: 'circle',
+          usePointStyle: true,
+          color: '#59647e',
+          font: {
+            weight: '500',
+          },
+        },
+      },
+      tooltip: {
+        boxPadding: 4,
+        boxWidth: 8,
+        boxHeight: 8,
+        usePointStyle: true,
+        backgroundColor: 'white',
+        bodyColor: '#59647e',
+        titleColor: '#59647e',
+        padding: 12,
+        borderColor: 'rgba(89, 100, 126, .2)',
+        borderWidth: 1,
+        bodyFont: {
+          weight: '500',
+        },
+      },
+    },
+    //   show the x and y scales
+    scales: {
+      x: {
+        grid: {
+          drawBorder: false,
+          display: false,
+        },
+        ticks: {
+          display: true,
+          color: '#59647e',
+          font: {
+            size: 12,
+            family: 'Montserrat ,sans-serif',
+          },
+        },
+      },
+      y: {
+        display: true,
+        grid: {
+          borderDash: [5, 5],
+          drawBorder: false,
+          display: true,
+          color: 'rgba(89, 100, 126, .1)',
+        },
+        ticks: {
+          stepSize: 1,
+          display: true,
+          callback: (value) => {
+            return value;
+          },
+          color: '#59647e',
+          font: {
+            size: 12,
+            family: 'Montserrat ,sans-serif',
+          },
+        },
+      },
+    },
+    // show tooltip on hover near the points
+    interaction: {
+      intersect: false,
+      mode: 'index',
+    },
+    //   animate in
+    animation: {
+      duration: 1,
+    },
+  },
+});
+</script>
+{% endif %}

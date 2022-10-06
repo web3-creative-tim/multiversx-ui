@@ -1,0 +1,16 @@
+- name: dark
+  hex: "#1E293B"
+- name: white
+  hex: "#FFFFFF"
+- name: primary
+  hex: "#3066FF"
+- name: secondary
+  hex: "#9BA5B4"
+- name: info
+  hex: "#17A2B8"
+- name: success
+  hex: "#12A366"
+- name: danger
+  hex: "#DC3545"
+- name: warning
+  hex: "#FFC107"

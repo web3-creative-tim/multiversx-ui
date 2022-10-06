@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="938px" viewBox="0 0 1600 938" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>gradient</title>
+    <defs>
+        <filter x="-19.6%" y="-21.5%" width="139.2%" height="143.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-7.8%" y="-17.1%" width="115.6%" height="134.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="gradient" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <ellipse id="Oval" fill="#3A00B9" opacity="0.0527576265" filter="url(#filter-1)" cx="1069" cy="471" rx="383" ry="349"></ellipse>
+        <ellipse id="Oval-Copy" fill="#3F00B9" opacity="0.0587100074" filter="url(#filter-2)" cx="1482.5" cy="210.5" rx="962.5" ry="439.5"></ellipse>
+    </g>
+</svg>

@@ -1,0 +1,61 @@
+- title: Getting started
+  pages:
+    - title: Overview
+      folder: overview
+    - title: License
+      folder: license
+    - title: Quick Start
+      folder: quick-start
+- title: Foundation
+  pages:
+    - title: Colors
+      folder: colors
+    - title: Typography
+      folder: typography
+- title: Examples
+  pages:
+    - title: Get NFTs
+      folder: get-nft
+    - title: DAO Management
+      folder: dao-management
+      soon: true
+    - title: Mint NFT
+      folder: mint-nft
+      soon: true
+    - title: Transfer NFT
+      folder: transfer-nft
+      soon: true
+    - title: Swap Token
+      folder: swap-token
+      soon: true
+    - title: Wallet Connect
+      folder: wallet-connect
+      soon: true
+- title: Components
+  pages:
+    - title: Alerts
+      folder: alerts
+    - title: Badge
+      folder: badge
+    - title: Buttons
+      folder: buttons
+    - title: Cards
+      folder: cards
+    - title: Collapse
+      folder: collapse
+    - title: Dropdowns
+      folder: dropdowns
+    - title: List Group
+      folder: list-group
+    - title: Modal
+      folder: modal
+    - title: Navs
+      folder: navs
+    - title: Navbar
+      folder: navbar
+    - title: Tables
+      folder: tables
+- title: Plugins
+  pages:
+    - title: Charts
+      folder: charts

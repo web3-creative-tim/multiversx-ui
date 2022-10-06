@@ -1,0 +1,19 @@
+{% assign start_depth = 0 %}
+
+{%- if jekyll.environment=='production' or site.baseurl != '' -%}
+  {% assign start_depth = 1 %}
+{%- endif -%}
+
+{% assign root = '' %}
+{% assign depth = page.url | append: 'hackish-solution' | split: '/' | size | minus: 2 %}
+
+{% for i in (start_depth..depth) %}
+    {% assign root_path = root  %}
+    {% assign root = root | append: '../' %}
+{% endfor %}
+
+{% if root == '' %}
+    {% assign root = './' %}
+{% endif %}
+
+{%- assign root_img = root | append: 'assets/img/'' -%}

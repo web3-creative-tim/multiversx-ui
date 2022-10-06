@@ -1,0 +1,54 @@
+<header class="ct-docs-navbar navbar blur">
+  <a class="navbar-brand font-weight-bolder d-flex align-items-center ms-1" href="{{root}}" target="_blank">
+    Elrond Elements
+  </a>
+    <ul class="ct-docs-navbar-nav-left"></ul>
+    <ul class="ct-docs-navbar-nav-right d-flex align-items-center">
+      <li class="nav-item">
+        <a class="nav-link text-dark font-weight-bold d-flex align-items-center" aria-current="page" href="{{root}}docs/overview/"> Docs </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark font-weight-bold d-flex align-items-center" aria-current="page" href="{{root}}#section-tools"> Develop </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark font-weight-bold d-flex align-items-center" aria-current="page" href="https://discord.com/invite/FhCJCaHdQa" rel="nofollow" target="_blank">
+          <i class="fab text-lg fa-discord" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark font-weight-bold d-flex align-items-center" aria-current="page" href="https://github.com/web3-creative-tim" rel="nofollow" target="_blank">
+          <i class="fab text-lg fa-github" aria-hidden="true"></i>
+        </a>
+      </li>
+        {% if site.algolia_search %}
+        <li class="ct-docs-navbar-nav-item ms-auto">
+          <div id="autocomplete" class="mt-2"></div>
+        </li>
+        {% endif %}
+
+        {% if site.product_download %}
+        <li class="ct-docs-navbar-nav-item">
+           <a class="ct-docs-navbar-nav-link" href="{{ site.product_download }}" target="_blank">Download Free</a>
+        </li>
+       {% endif %}
+
+     </ul>
+
+     <ul class="navbar-nav d-lg-block d-none">
+       <li class="nav-item ms-2">
+          <a href="{{root}}docs/quick-start/" class="btn btn-sm mb-0 bg-gradient-dark">Get Started</a>
+        </li>
+      </ul>
+
+   {% if site.product_purchase %}
+    <a href="{{ site.product_purchase }}" target="_blank" class="ct-docs-btn-upgrade">
+        <span class="ct-docs-btn-inner--icon">
+            <i class="fas fa-download mr-2"></i>
+        </span>
+        <span class="ct-docs-navbar-nav-link-inner--text">Upgrade to PRO</span>
+    </a>
+    {% endif %}
+    <button class="ct-docs-navbar-toggler" type="button">
+        <span class="ct-docs-navbar-toggler-icon"></span>
+    </button>
+</header>

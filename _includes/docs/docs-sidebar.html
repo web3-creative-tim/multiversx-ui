@@ -1,0 +1,70 @@
+<nav class="ct-docs-sidebar-collapse-links">
+  {%- assign page_slug = page.title | slugify -%}
+  {% assign docs_nav = 'docs-' | append: site.product_type | append: '-nav' %}
+
+  {%- for item in site.data.sidebar -%}
+    {% unless site.doc_exclude_group contains item.title %}
+
+      {% if item.pages %}
+        {%- assign link = item.pages | first -%}
+        {%- assign link_slug = link.title | slugify -%}
+        {%- assign group_slug = item.title | slugify -%}
+        {%- assign active = nil -%}
+
+        <div class="ct-docs-toc-item-active">
+            <a class="ct-docs-toc-link" href="javascript:void(0)">
+              {% if item.icon %}
+              <div class="d-inline-block">
+                <div class="icon icon-xs border-radius-md bg-gradient-primary text-center mr-2 d-flex align-items-center justify-content-center me-1">
+                  <i class="ni ni-{{ item.icon }} text-white"></i>
+                </div>
+              </div>
+              {% endif %}
+              {{ item.title }}
+
+            </a>
+            <ul class="ct-docs-nav-sidenav ms-4 ps-1">
+                {% assign docs = item.pages | where: site.product_type, true %}
+
+                {%- for doc in docs -%}
+                {%- assign doc_slug = doc.title | slugify -%}
+
+                {% if doc.link %}
+                  {%- assign doc_link = doc.link | slugify -%}
+                {% else %}
+                  {%- assign doc_link = NULL -%}
+                {% endif %}
+
+                {% unless site.doc_exclude_files contains doc.title %}
+                <li class="{% if page_slug contains doc_slug or page_slug contains doc_link %} ct-docs-nav-sidenav-active {% endif %}">
+                    <a href="{{ root }}docs/{% if doc.link %}{{ doc_link }}{% else %}{{ doc_slug }}{% endif %}/{{ site.product_design }}">
+                      {{ doc.title }}
+                      {% if site.doc_pro_files contains doc.title %}
+                        <span class="ct-docs-sidenav-pro-badge">Pro</span>
+                        {% endif %}
+                      {% if doc.soon == true %}
+                      <span class="ct-docs-sidenav-pro-badge">Soon</span>
+                      {% endif %}
+                    </a>
+                    {%- comment -%} {% unless doc.sections == nil %}
+                    <ul class="nav">
+                        {% for section in doc.sections %}
+                        <li>
+                            <a href="#{{ section.title | downcase | replace: ' ', '-' | }}.html">{{ section.title }}</a>
+
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endunless %} {%- endcomment -%}
+                  </li>
+                {% endunless %}
+
+                {%- endfor -%}
+            </ul>
+        </div>
+        {% endif %}
+
+      {% endunless %}
+
+  {%- endfor -%}
+</nav>

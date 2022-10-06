@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="869px" viewBox="0 0 1000 869" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>gradient-blob</title>
+    <defs>
+        <filter x="-24.6%" y="-28.4%" width="149.2%" height="156.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-28.5%" y="-31.3%" width="157.1%" height="162.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-26.5%" y="-35.9%" width="153.0%" height="171.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="gradient-blob" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <ellipse id="Oval-Copy-13" fill="#FF00E3" opacity="0.308268229" filter="url(#filter-1)" cx="562.168857" cy="400.721562" rx="304.831143" ry="263.721562"></ellipse>
+        <ellipse id="Oval-Copy-14" fill="#6BACFF" opacity="0.764648438" filter="url(#filter-2)" cx="395.703683" cy="391.071156" rx="262.703683" ry="239.933303"></ellipse>
+        <ellipse id="Oval-Copy-12" fill="#744AF0" opacity="0.257765997" filter="url(#filter-3)" cx="516.015656" cy="516.230461" rx="283.158449" ry="208.769539"></ellipse>
+    </g>
+</svg>

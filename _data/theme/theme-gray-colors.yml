@@ -1,0 +1,18 @@
+- name: Gray 100
+  hex: "#F9FAFB"
+- name: Gray 200
+  hex: "#E9ECEF"
+- name: Gray 300
+  hex: "#DDE0E5"
+- name: Gray 400
+  hex: "#CED4DA"
+- name: Gray 500
+  hex: "#ADB5BD"
+- name: Gray 600
+  hex: "#6C757D"
+- name: Gray 700
+  hex: "#495057"
+- name: Gray 800
+  hex: "#343A40"
+- name: Gray 900
+  hex: "#212529"

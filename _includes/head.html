@@ -1,0 +1,37 @@
+<meta charset="utf-8">
+<link rel="apple-touch-icon" sizes="76x76" href="{{ root }}assets/img/favicon.png">
+<link rel="icon" href="{{ root }}/assets/img/favicon.png" type="image/png">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="{{ site.author }}">
+
+{% if site.no_sitemap %}
+<meta name="robots" content="noindex" />
+{% endif %}
+
+<title>
+{% if page.overview %}
+  Overview | {{ site.title }} @ Creative Tim
+{% else %}
+  {{ page.title }} | {{ site.title }} @ Creative Tim
+{% endif %}
+</title>
+
+
+<link rel="canonical" href="" />
+
+<link rel="stylesheet" href="{{root}}assets/css/elrond-elements.css" type="text/css">
+<link href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic" rel="stylesheet" type="text/css">
+
+<script src="https://kit.fontawesome.com/349ee9c857.js" crossorigin="anonymous"></script>
+
+<!-- This is for docs typography and layout -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+<link href="{{ root }}assets/docs.css"  rel="stylesheet"/>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M256CF6');</script>
+<!-- End Google Tag Manager -->
