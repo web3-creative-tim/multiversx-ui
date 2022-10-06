@@ -31,7 +31,7 @@ Copy-paste the stylesheet `<link>` into your `<head>` before all other styleshee
 <script src="https://kit.fontawesome.com/349ee9c857.js" crossorigin="anonymous"></script>
 
 <!-- CSS Files -->
-<link id="pagestyle" href="" rel="stylesheet" />
+<link id="pagestyle" href="https://cdn.jsdelivr.net/gh/web3-creative-tim/elrond-elements@main/dist/css/elrond-elements.min.css" rel="stylesheet" />
 {% endhighlight %}
 
 
@@ -46,7 +46,7 @@ Many of our components require the use of JavaScript to function. Specifically ,
 
 
 <!-- Elrond Elements JS -->
-<script src=""></script>
+<script src="https://cdn.jsdelivr.net/gh/web3-creative-tim/elrond-elements@main/dist/js/elrond-elements.min.js"></script>
 {% endhighlight %}
 
 Need to use a certain plugin in your page? You can find out how to integrate them and make them work in the Plugins dedicated page. In this way you will be sure that your website is optimized and uses only the needed resources.
@@ -83,15 +83,12 @@ Be sure to have your pages set up with the latest design and development standar
   <h1>Hello, world!</h1>
 
   <!--   Core JS Files   -->
-  <script src="../assets/js/core/popper.min.js"></script>
-  <script src="../assets/js/core/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 
-  <!-- Plugin for the charts, full documentation here: https://www.chartjs.org/ -->
-  <script src="../assets/js/plugins/chartjs.min.js"></script>
-  <script src="../assets/js/plugins/Chart.extension.js"></script>
 
   <!-- Control Center for Elrond Elements: parallax effects, scripts for the example pages etc -->
-  <script src="../assets/js/elrond-elements.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/web3-creative-tim/elrond-elements@main/dist/js/elrond-elements.min.js"></script>
 </body>
 
 </html>
