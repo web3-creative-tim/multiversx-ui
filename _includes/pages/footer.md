@@ -1,7 +1,7 @@
-<footer class="footer {% if page.layout == 'page' %} bg-slate-900 {% endif %} pt-5 pb-4 position-relative">
+<footer class="footer {% if page.layout == 'page' %} bg-slate-900 pt-5 pb-4 {% else %} py-4 {% endif %} position-relative">
   <div class="container position-relative z-index-1">
     <div class="row">
-      <div class="col-lg-4 {% if page.layout == 'docs' %} ms-sm-5 {% endif %} me-auto mb-lg-0 mb-4 text-lg-start text-center">
+      <div class="col-xl-4 {% if page.layout == 'docs' %} ms-xl-5 {% endif %} me-auto mb-xl-0 mb-4 text-xl-start text-center">
         <h6 class="{% if page.layout != 'docs' %} text-white {% endif %} text-2xl font-weight-black mb-2">Elrond Elements</h6>
         <p class="text-sm {% if page.layout != 'docs' %} text-white {% endif %}">
           Designed and Coded by <a href="https://www.creative-tim.com/" target="_blank" class="{% if page.layout != 'docs' %} text-white {% endif %}" rel="nofollow">Creative Tim</a> for the Elrond Ecosystem.
@@ -14,8 +14,8 @@
           Currently v1.0.0 - Alpha.
         </p>
       </div>
-      <div class="col-lg-6 ms-auto text-end">
-        <ul class="nav flex-row ms-auto mb-2 justify-content-lg-end justify-content-md-center mt-sm-0">
+      <div class="col-xl-7 ms-xl-auto text-xl-end">
+        <ul class="nav flex-row ms-auto mb-2 justify-content-xl-end justify-content-center mt-sm-0">
           <li class="nav-item text-start mb-sm-0 mb-4">
             <div>
               <h6 class="{% if page.layout != 'docs' %} text-white {% endif %} font-weight-bolder text-sm">Company</h6>
@@ -54,7 +54,7 @@
               </ul>
             </div>
           </li>
-          <li class="nav-item text-start ms-sm-4">
+          <li class="nav-item text-start ms-4">
             <div>
               <h6 class="{% if page.layout != 'docs' %} text-white {% endif %} font-weight-bolder text-sm">Ecosystem</h6>
               <ul class="flex-column ms-n3 nav">
