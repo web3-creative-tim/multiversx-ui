@@ -23,7 +23,7 @@ description: View all alert examples
 	</a>
 </div>
 
-<div class="alert bg-gradient-primary text-white" role="alert">
+<div class="alert bg-gradient-primary border-0 text-white" role="alert">
 	<div class="d-flex align-items-center">
 		<div>
 			<p class="font-weight-bolder mb-0">The Internet Scale Blockchain Is Live!</p>
@@ -56,7 +56,7 @@ description: View all alert examples
 	</a>
 </div>
 
-<div class="alert bg-gradient-primary text-white" role="alert">
+<div class="alert bg-gradient-primary border-0 text-white" role="alert">
 	<div class="d-flex align-items-center">
 		<div>
 			<p class="font-weight-bolder mb-0">The Internet Scale Blockchain Is Live!</p>
@@ -86,7 +86,7 @@ description: View all alert examples
       <i className="fa fa-chevron-right text-white text-sm ms-2" />
     </a>
   </div>
-  <div className="alert bg-gradient-primary text-white" role="alert">
+  <div className="alert bg-gradient-primary border-0 text-white" role="alert">
     <div className="d-flex align-items-center">
       <div>
         <p className="font-weight-bolder mb-0">The Internet Scale Blockchain Is Live!</p>
@@ -604,7 +604,7 @@ description: View all alert examples
 
 <div class="ct-example">
 {% for color in site.data.theme.theme-colors %}
-<div class="alert bg-gradient-{{ color.name }} text-sm {% if color.name == 'white' %}text-dark{% else %}text-white{% endif %}" role="alert">
+<div class="alert bg-gradient-{{ color.name }} border-0 text-sm {% if color.name == 'white' %}text-dark{% else %}text-white{% endif %}" role="alert">
 	<div>
 		<p class="font-weight-bolder mb-0">The Internet Scale Blockchain Is Live!</p>
 		<p class="text-xs mb-0">Develop, test &amp; deploy with the tools you love</p>
@@ -631,7 +631,7 @@ description: View all alert examples
 	</div>
 </div>
 
-<div class="alert bg-gradient-primary text-white text-sm" role="alert">
+<div class="alert bg-gradient-primary border-0 text-white text-sm" role="alert">
 	<div>
 		<p class="font-weight-bolder mb-0">The Internet Scale Blockchain Is Live!</p>
 		<p class="text-xs mb-0">Develop, test &amp; deploy with the tools you love</p>
@@ -690,7 +690,7 @@ description: View all alert examples
       <p className="text-xs mb-0">Develop, test &amp; deploy with the tools you love</p>
     </div>
   </div>
-  <div className="alert bg-gradient-primary text-white text-sm" role="alert">
+  <div className="alert bg-gradient-primary border-0 text-white text-sm" role="alert">
     <div>
       <p className="font-weight-bolder mb-0">The Internet Scale Blockchain Is Live!</p>
       <p className="text-xs mb-0">Develop, test &amp; deploy with the tools you love</p>
