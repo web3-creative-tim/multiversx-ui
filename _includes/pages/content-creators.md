@@ -35,7 +35,7 @@
 </div>
 <div class="px-1">
   <a href="javascript:;">
-    <h4 class="font-weight-bolder mb-0"> Elrond Elements is the solution </h4>
+    <h4 class="font-weight-bolder mb-0"> MultiversX UI is the solution </h4>
   </a>
   <p class="mb-4">A highly scalable, fast and secure blockchain platform for distributed apps.</p>
   <a href="javascript:;" class="text-dark text-sm font-weight-bold icon-move-right mt-auto w-100 mb-5">
@@ -65,7 +65,7 @@
         	  </div>
             <div class="px-1">
           	  <a href="javascript:;">
-          	    <h4 class="font-weight-bolder mb-0"> Elrond Elements is the solution </h4>
+          	    <h4 class="font-weight-bolder mb-0"> MultiversX UI is the solution </h4>
           	  </a>
           	  <p class="mb-4">A highly scalable, fast and secure blockchain platform for distributed apps.</p>
           	  <a href="javascript:;" class="text-dark text-sm font-weight-bold icon-move-right mt-auto w-100 mb-5"> Read post <i class="fas fa-arrow-right-long text-sm ms-1" aria-hidden="true"></i>

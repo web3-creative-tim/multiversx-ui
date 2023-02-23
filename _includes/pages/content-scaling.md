@@ -28,7 +28,7 @@
                 <i class="fa fa-check mx-auto text-white"></i>
               </div>
             </div>
-            <h5 class="mb-1 font-weight-bolder">Elrond API Tutorials</h5>
+            <h5 class="mb-1 font-weight-bolder">MultiversX API Tutorials</h5>
             <p class="mb-0 text-sm">
               We started with some examples of how you get the details of an NFT from the blockchain. We will add more examples of Minting NFTs, Transfer NFTs, Swap Tokens, DAO Management etc.
             </p>
@@ -52,7 +52,7 @@
             </div>
             <h5 class="mb-1 font-weight-bolder">Web 3.0 Education Articles</h5>
             <p class="mb-0 text-sm">
-              We wrote a couple of general articles about Blockchains, Web 3.0 terms, Wallets etc. As soon as people will have an overview about this ecosystem we will start to write more in depth Elrond Articles.
+              We wrote a couple of general articles about Blockchains, Web 3.0 terms, Wallets etc. As soon as people will have an overview about this ecosystem we will start to write more in depth MultiversX Articles.
             </p>
             <a href="https://www.creative-tim.com/blog/web-3-0/" target="_blank" class="text-primary text-sm font-weight-bold icon-move-rightw-100"> Read Articles <i class="fas fa-arrow-right-long text-sm ms-1" aria-hidden="true"></i>
             </a>

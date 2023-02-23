@@ -31,7 +31,7 @@
         </div>
         <div class="row">
           <div class="col-md-5">
-            <h1 class="text-primary display-4 font-weight-light">40+</h1>
+            <h1 class="text-primary display-4 font-weight-bold">40+</h1>
             <h5 class="font-weight-bolder">Coded Elements</h5>
             <p>
               From buttons, to inputs, navbars, alerts, tables,
@@ -39,21 +39,21 @@
             </p>
           </div>
           <div class="col-md-5">
-            <h1 class="text-primary display-4 font-weight-light">3</h1>
+            <h1 class="text-primary display-4 font-weight-bold">3</h1>
             <h5 class="font-weight-bolder">Starter dApps</h5>
             <p>
               We created some examples of a regular Wallet, Mint Template and NFT Collection show.
             </p>
           </div>
           <div class="col-md-5">
-            <h1 class="text-primary display-4 font-weight-light">20+</h1>
+            <h1 class="text-primary display-4 font-weight-bold">20+</h1>
             <h5 class="font-weight-bolder">Components Variants</h5>
             <p>
               Each component is coming with multiple examples and customizble classes.
             </p>
           </div>
           <div class="col-md-5">
-            <h1 class="text-primary display-4 font-weight-light">100+</h1>
+            <h1 class="text-primary display-4 font-weight-bold">100+</h1>
             <h5 class="font-weight-bolder">Global Styles</h5>
             <p>
               Colors, typography system, shadows, spacing, blur effects and many more.

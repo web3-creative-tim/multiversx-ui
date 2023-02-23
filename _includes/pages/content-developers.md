@@ -5,7 +5,7 @@
         <span class="text-primary font-weight-bold">By developers, for developers</span>
         <h2 class="my-2 display-6 font-weight-black">Develop consistently using atomic design principles.</h2>
         <p>
-          Using Elrond Elements you get everything you <br/>
+          Using MultiversX UI you get everything you <br/>
           need to start creating fully functional Web 3.0<br/>
           dApps in days, not months.
         </p>

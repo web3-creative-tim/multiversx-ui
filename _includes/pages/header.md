@@ -6,13 +6,12 @@
     <div class="container">
       <div class="row text-sm-start text-center">
         <div class="col-lg-6 col-md-7 mt-md-8 mb-lg-10 mb-5 mt-md-0">
-          <span class=" text-sm text-white badge badge-primary opacity-7">v1.0.0-alpha</span>
-          <span>New components added on weekly basis.</span>
-          <h1 class="text-dark display-5 font-weight-black mt-3">The perfect starting point for your Elrond Web 3.0 dApps</h1>
+          <span class="text-uppercase text-primary font-weight-bolder">v1.0.0-alpha | New components added on weekly basis</span>
+          <h1 class="text-dark display-5 font-weight-black mt-3">The perfect starting point for your MultiversX Web 3.0 dApps</h1>
           <p class="text-lg me-sm-5">
-            Elrond Elements is an Open Source, Fully Coded Design System made by <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>. Elrond is a highly scalable, fast and secure blockchain platform for distributed apps.
+            MultiversX UI is an Open Source, Fully Coded Design System made by <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>. MultiversX is a highly scalable, fast and secure blockchain platform for distributed apps.
           </p>
-          <a href="#section-designer-creators" class="btn btn-dark mt-4">Read More</a>
+          <a href="#section-designer-creators" class="btn btn-primary mt-4">Get Started</a>
         </div>
         <div class="col-lg-6 col-md-5 my-auto position-relative text-center">
           <img src="{{root}}assets/img/cube.png" alt="cube" class="w-md-80 w-60 max-width-500 position-md-absolute ms-md-0 mx-auto end-10 top-0 animation-float mt-lg-2 me-md-n5" />

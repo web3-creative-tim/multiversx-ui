@@ -3,7 +3,7 @@
     <div class="col-12">
       <nav class="navbar navbar-expand-lg blur border-radius-sm top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-2">
         <div class="container-fluid px-1">
-          <a class="navbar-brand font-weight-bolder ms-lg-0 " href="{{root}}"> Elrond Elements </a>
+          <a class="navbar-brand font-weight-bolder ms-lg-0 " href="{{root}}"> MultiversX UI </a>
           <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon mt-2">
               <span class="navbar-toggler-bar bar1"></span>
@@ -36,7 +36,7 @@
             </ul>
             <ul class="navbar-nav d-lg-block d-none">
               <li class="nav-item ms-2">
-                <a href="{{root}}docs/quick-start/" class="btn btn-sm mb-0 bg-gradient-dark border-radius-sm">Get Started</a>
+                <a href="{{root}}docs/quick-start/" class="btn btn-sm btn-primary mb-0 border-radius-sm">Get Started</a>
               </li>
             </ul>
           </div>
