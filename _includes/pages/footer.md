@@ -1,4 +1,4 @@
-<footer class="footer {% if page.layout == 'page' %} bg-slate-900 pt-5 pb-4 {% else %} py-4 {% endif %} position-relative">
+<footer class="footer {% if page.layout == 'page' %} bg-black pt-5 pb-4 {% else %} py-4 {% endif %} position-relative">
   <div class="container position-relative z-index-1">
     <div class="row">
       <div class="col-xl-4 {% if page.layout == 'docs' %} ms-xl-5 {% endif %} me-auto mb-xl-0 mb-4 text-xl-start text-center">

@@ -7,14 +7,14 @@
         <p class="mb-2">
           Explore our Open Source UI library. Currently crafted for Bootstrap v5.0, soon will be released for React & Next.js too. Everything you need for modern Web 3.0 dApps is here.
         </p>
-        <a href="https://elrond-elements.com/docs/alerts/" class="font-weight-bold text-sm text-dark mb-0 icon-move-right mt-auto w-100 mb-0">
+        <a href="https://elrond-elements.com/docs/alerts/" class="font-weight-bold text-sm text-primary mb-0 icon-move-right mt-auto w-100 mb-0">
           Documentation
           <i class="fas fa-arrow-right-long text-sm ms-1" aria-hidden="true"></i>
         </a>
       </div>
       <div class="col-lg-7 mt-sm-0 mt-5">
         <div class="d-sm-flex align-items-center">
-          <div class="card card-highlight w-sm-60 w-100 shadow-lg border border-radius-lg overflow-hidden ms-auto">
+          <div class="card card-highlight w-sm-60 w-100 shadow-lg border border-dark border-radius-lg overflow-hidden ms-auto">
 {% highlight html %}
 <div class="card card-background border-radius-xl card-background-after-none align-items-start mb-4">
   <div class="full-background bg-cover" style="background-image: url('{{root}}assets/img/img-cube.jpg')"></div>

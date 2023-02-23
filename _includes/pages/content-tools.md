@@ -17,7 +17,7 @@
           </div>
           <div class="card-body px-0">
             <h5 class="mt-2">
-              <a href="https://github.com/web3-creative-tim/elrond-my-nfts-collection-dapp" class="text-dark font-weight-bolder">My NFTs Collection dApp</a>
+              <a href="https://github.com/web3-creative-tim/elrond-my-nfts-collection-dapp" class="text-white font-weight-bolder">My NFTs Collection dApp</a>
             </h5>
             <p>
               It is a starter template for NFTs collection creators and is open source for the community. Anybody can add this Template to their website.
@@ -37,7 +37,7 @@
           </div>
           <div class="card-body px-0">
             <h5 class="mt-2">
-              <a href="https://nf-tim.creative-tim.com/" class="text-dark font-weight-bolder">NF-Tim dApp</a>
+              <a href="https://nf-tim.creative-tim.com/" class="text-white font-weight-bolder">NF-Tim dApp</a>
             </h5>
             <p>
               NF-Tim dApp will allow holders to see their NFTs, download their products (utilities), download the book and view Rarities.
@@ -57,7 +57,7 @@
           </div>
           <div class="card-body px-0">
             <h5 class="mt-2">
-              <a href="javascript:;" class="text-dark font-weight-bolder">Minting dApp Template</a>
+              <a href="javascript:;" class="text-white font-weight-bolder">Minting dApp Template</a>
             </h5>
             <p>
               This template is made in partnership with Elrond Giants and it can be used as a starting point for
