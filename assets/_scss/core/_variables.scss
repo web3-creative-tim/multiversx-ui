@@ -73,6 +73,7 @@ $info:          #105DF1 !default;
 $success:       #22C55E !default;
 $warning:       #FBBF24 !default;
 $danger:        #EF4444 !default;
+$purple:        #8B5CF6 !default;
 $light:         $slate-300 !default;
 $dark:          $slate-800 !default;
 
@@ -84,6 +85,7 @@ $theme-colors: (
   "info":       $info,
   "warning":    $warning,
   "danger":     $danger,
+  "purple":     $purple,
   "light":      $light,
   "dark":       $dark,
   "white":      $white
@@ -92,32 +94,32 @@ $theme-colors: (
 
 
 // Gradient colors
-$primary-gradient:            #774dd3 !default;
-$primary-gradient-state:      #774dd3 !default;
+$primary-gradient:            #07B8A2 !default;
+$primary-gradient-state:      #23F7DD !default;
 
-$secondary-gradient:          #64748b !default;
-$secondary-gradient-state:    #64748b !default;
+$secondary-gradient:          #1E1E1E !default;
+$secondary-gradient-state:    #393B3D !default;
 
-$info-gradient:               #55a6f8 !default;
-$info-gradient-state:         #55a6f8 !default;
+$info-gradient:               #1034F1 !default;
+$info-gradient-state:         #105DF1 !default;
 
-$success-gradient:            #50ae46 !default;
-$success-gradient-state:      #50ae46 !default;
+$success-gradient:            #05B05E !default;
+$success-gradient-state:      #22C55E !default;
 
-$danger-gradient:             #ea4e3d !default;
-$danger-gradient-state:       #ea4e3d !default;
+$danger-gradient:             #EF2424 !default;
+$danger-gradient-state:       #EF4444 !default;
 
-$warning-gradient:            #f19937 !default;
-$warning-gradient-state:      #f19937 !default;
+$warning-gradient:            #FB9824 !default;
+$warning-gradient-state:      #FBBF24 !default;
 
-$dark-gradient:               $slate-800 !default;
-$dark-gradient-state:         $slate-800 !default;
+$dark-gradient:               $black !default;
+$dark-gradient-state:         $black-100 !default;
 
 $light-gradient:              #CED4DA !default;
-$light-gradient-state:        #EBEFF4 !default;
+$light-gradient-state:        #DDE0E5 !default;
 
-$dark-gradient-dark:          #323a54 !default;
-$dark-gradient-state-dark:    #1a2035 !default;
+$dark-gradient-dark:          #1a2035 !default;
+$dark-gradient-state-dark:    #323a54 !default;
 
 // Gradient Colors map
 $theme-gradient-colors: (
