@@ -1,6 +1,6 @@
 <section class="py-3 mt-6 mb-5">
   <div class="container">
-    <div class="row position-relative mb-2">
+    <div class="row position-relative overflow-hidden mb-2">
       <div class="col-12">
         <div class="card position-relative shadow-lg bg-primary">
           <div class="card-body px-5 py-6">

@@ -1,6 +1,6 @@
 <section class="py-3 my-7">
   <div class="container">
-    <div class="row position-relative mb-2">
+    <div class="row position-relative overflow-hidden mb-2">
       <div class="col-12">
         <div class="card position-relative shadow-lg bg-primary">
         <div class="card-body p-md-5 p-4">

@@ -13,20 +13,20 @@
         </span>
           <span class="avatar bg-black-100 position-relative me-2" data-bs-toggle="tooltip" data-bs-title="React">
             <img src="{{root}}assets/img/logos/logo-react.png" class="w-100 border-radius-lg opacity-6 p-2" alt="react"/>
-            <span class="badge badge-sm border-radius-lg border border-white mt-n2 me-n4 position-absolute top-0 end-0 py-1">Soon</span>
+            <span class="badge badge-sm border-radius-lg border border-purple text-purple mt-n2 me-n4 position-absolute top-0 end-0 py-1">Soon</span>
           </span>
           <span class="avatar bg-black-100 position-relative me-2 ms-4" data-bs-toggle="tooltip" data-bs-title="Next.js">
             <img src="{{root}}assets/img/logos/logo-nextjs.png" class="w-100 border-radius-lg opacity-6" alt="next"/>
-            <span class="badge badge-sm border-radius-lg border border-white mt-n2 me-n4 position-absolute top-0 end-0 py-1">Soon</span>
+            <span class="badge badge-sm border-radius-lg border border-purple text-purple mt-n2 me-n4 position-absolute top-0 end-0 py-1">Soon</span>
           </span>
 
           <span class="avatar bg-black-100 position-relative me-2 ms-4" data-bs-toggle="tooltip" data-bs-title="React Native">
             <img src="{{root}}assets/img/logos/logo-react-native.png" class="w-100 border-radius-lg opacity-6" alt="react native"/>
-            <span class="badge badge-sm border-radius-lg border border-white mt-n2 me-n4 position-absolute top-0 end-0 py-1">Soon</span>
+            <span class="badge badge-sm border-radius-lg border border-purple text-purple mt-n2 me-n4 position-absolute top-0 end-0 py-1">Soon</span>
           </span>
           <span class="avatar bg-black-100 position-relative me-2 ms-4" data-bs-toggle="tooltip" data-bs-title="Figma">
             <img src="{{root}}assets/img/logos/logo-figma.png" class="w-100 border-radius-lg opacity-6" alt="figma"/>
-            <span class="badge badge-sm border-radius-lg border border-white mt-n2 me-n4 position-absolute top-0 end-0 py-1">Soon</span>
+            <span class="badge badge-sm border-radius-lg border border-purple text-purple mt-n2 me-n4 position-absolute top-0 end-0 py-1">Soon</span>
           </span>
         </div>
         <div class="row">
