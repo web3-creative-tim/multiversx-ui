@@ -9,24 +9,24 @@
 
         <div class="d-flex mb-3 mt-5">
         <span class="avatar bg-black-100 me-2" data-bs-toggle="tooltip" data-bs-title="Bootstrap">
-          <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/bootstrap5-logo.png" class="w-100 border-radius-lg" alt="bootstrap"/>
+          <img src="{{root}}assets/img/logos/logo-bootstrap.png" class="w-100 border-radius-lg" alt="bootstrap"/>
         </span>
           <span class="avatar bg-black-100 position-relative me-2" data-bs-toggle="tooltip" data-bs-title="React">
-            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-logo.png" class="w-100 border-radius-lg opacity-6 p-2" alt="react"/>
-            <span class="badge badge-sm border-radius-lg bg-gradient-secondary mt-n2 me-n4 position-absolute top-0 end-0 py-1">Soon</span>
+            <img src="{{root}}assets/img/logos/logo-react.png" class="w-100 border-radius-lg opacity-6 p-2" alt="react"/>
+            <span class="badge badge-sm border-radius-lg border border-white mt-n2 me-n4 position-absolute top-0 end-0 py-1">Soon</span>
           </span>
           <span class="avatar bg-black-100 position-relative me-2 ms-4" data-bs-toggle="tooltip" data-bs-title="Next.js">
-            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/nextjs.jpg" class="w-100 border-radius-lg opacity-6" alt="next"/>
-            <span class="badge badge-sm border-radius-lg bg-gradient-secondary mt-n2 me-n4 position-absolute top-0 end-0 py-1">Soon</span>
+            <img src="{{root}}assets/img/logos/logo-nextjs.png" class="w-100 border-radius-lg opacity-6" alt="next"/>
+            <span class="badge badge-sm border-radius-lg border border-white mt-n2 me-n4 position-absolute top-0 end-0 py-1">Soon</span>
           </span>
 
           <span class="avatar bg-black-100 position-relative me-2 ms-4" data-bs-toggle="tooltip" data-bs-title="React Native">
-            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-native-logo.png" class="w-100 border-radius-lg opacity-6" alt="react native"/>
-            <span class="badge badge-sm border-radius-lg bg-gradient-secondary mt-n2 me-n4 position-absolute top-0 end-0 py-1">Soon</span>
+            <img src="{{root}}assets/img/logos/logo-react-native.png" class="w-100 border-radius-lg opacity-6" alt="react native"/>
+            <span class="badge badge-sm border-radius-lg border border-white mt-n2 me-n4 position-absolute top-0 end-0 py-1">Soon</span>
           </span>
           <span class="avatar bg-black-100 position-relative me-2 ms-4" data-bs-toggle="tooltip" data-bs-title="Figma">
-            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/figma-logo.png" class="w-100 border-radius-lg opacity-6" alt="figma"/>
-            <span class="badge badge-sm border-radius-lg bg-gradient-secondary mt-n2 me-n4 position-absolute top-0 end-0 py-1">Soon</span>
+            <img src="{{root}}assets/img/logos/logo-figma.png" class="w-100 border-radius-lg opacity-6" alt="figma"/>
+            <span class="badge badge-sm border-radius-lg border border-white mt-n2 me-n4 position-absolute top-0 end-0 py-1">Soon</span>
           </span>
         </div>
         <div class="row">
