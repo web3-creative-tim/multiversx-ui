@@ -3,7 +3,7 @@
     <div class="row position-relative overflow-hidden mb-2">
       <div class="col-md-7">
         <span class="text-primary font-weight-bold">Start from here</span>
-        <h2 class="mt-2 display-6 font-weight-black">Fully coded dApps Examples</h2>
+        <h2 class="text-white mt-2 display-6 font-weight-black">Fully coded dApps Examples</h2>
         <p>You can start using some of our dApps examples. They are pretty simple now. More complex situations will be released in the future based on community feedback.</p>
       </div>
     </div>

@@ -4,7 +4,7 @@
       <div class="col-lg-6 mx-auto">
         <div class="p-3 text-center mb-5 z-index-1 position-relative">
           <span class="text-primary font-weight-bold">Work in progress</span>
-          <h2 class="mt-3 display-6 font-weight-black">Complementary solutions will be added in future</h2>
+          <h2 class="text-white mt-3 display-6 font-weight-black">Complementary solutions will be added in future</h2>
           <p class="mb-0 text-secondary text-lg">We work close with the community of developers, designers and NFT creators in order to deliver the best soltutions for their usecases.</p>
         </div>
       </div>

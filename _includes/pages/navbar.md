@@ -33,6 +33,11 @@
                   <i class="fab text-lg fa-github"></i>
                 </a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark font-weight-bold d-flex align-items-center me-2 btn btn-icon mb-0" aria-current="page" onclick="switchMode(this)" rel="nofollow" target="_blank">
+                  <i class="fa text-lg fa-sun"></i>
+                </a>
+              </li>
             </ul>
             <ul class="navbar-nav d-lg-block d-none">
               <li class="nav-item ms-2">

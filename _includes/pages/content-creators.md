@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-5 my-auto text-start">
         <span class="text-primary font-weight-bold">The secret tool of developers - Copy & Paste</span>
-        <h2 class="my-2 display-6 font-weight-black">Don't write from scratch. Coded examples are included.</h2>
+        <h2 class="text-white my-2 display-6 font-weight-black">Don't write from scratch. Coded examples are included.</h2>
         <p class="mb-2">
           Explore our Open Source UI library. Currently crafted for Bootstrap v5.0, soon will be released for React & Next.js too. Everything you need for modern Web 3.0 dApps is here.
         </p>

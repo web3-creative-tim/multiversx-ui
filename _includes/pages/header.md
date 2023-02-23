@@ -7,9 +7,9 @@
       <div class="row text-sm-start text-center">
         <div class="col-lg-6 col-md-7 mt-md-8 mb-lg-10 mb-5 mt-md-0">
           <span class="text-uppercase text-primary font-weight-bolder">v1.0.0-alpha | New components added on weekly basis</span>
-          <h1 class="text-dark display-5 font-weight-black mt-3">The perfect starting point for your MultiversX Web 3.0 dApps</h1>
+          <h1 class="text-white display-5 font-weight-black mt-3">The perfect starting point for your MultiversX Web 3.0 dApps</h1>
           <p class="text-lg me-sm-5">
-            MultiversX UI is an Open Source, Fully Coded Design System made by <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>. MultiversX is a highly scalable, fast and secure blockchain platform for distributed apps.
+            MultiversX UI is an Open Source, Fully Coded Design System made by <a href="https://www.creative-tim.com" target="_blank" class="text-white">Creative Tim</a>. MultiversX is a highly scalable, fast and secure blockchain platform for distributed apps.
           </p>
           <a href="#section-designer-creators" class="btn btn-primary mt-4">Get Started</a>
         </div>
@@ -21,7 +21,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-8 mx-auto text-center font-weight-bold text-dark d-flex align-items-center justify-content-center">
+      <div class="col-md-8 mx-auto text-center font-weight-bold text-white d-flex align-items-center justify-content-center">
         <span class="pe-2">Blockchain by</span>
         <img src="{{root}}assets/img/logos/logo-elrond.svg" class="me-2 avatar avatar-lg" alt="logo-elrond">
         <span class="border-start border-2 border-dark ps-2">Design & Code by </span>

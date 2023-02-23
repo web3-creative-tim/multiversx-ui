@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row mb-4">
       <div class="col-12 text-center">
-        <h5 class="text-lg font-weight-bolder mb-1">From Startups to Fortune 500s, industry leaders trust our interfaces</h5>
+        <h5 class="text-white text-lg font-weight-bolder mb-1">From Startups to Fortune 500s, industry leaders trust our interfaces</h5>
       </div>
     </div>
     <div class="d-flex align-items-center align-items-center">

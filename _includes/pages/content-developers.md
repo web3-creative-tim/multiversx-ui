@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-5 col-8 text-start">
         <span class="text-primary font-weight-bold">By developers, for developers</span>
-        <h2 class="my-2 display-6 font-weight-black">Develop consistently using atomic design principles.</h2>
+        <h2 class="text-white my-2 display-6 font-weight-black">Develop consistently using atomic design principles.</h2>
         <p>
           Using MultiversX UI you get everything you <br/>
           need to start creating fully functional Web 3.0<br/>
