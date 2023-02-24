@@ -145,7 +145,7 @@ $utilities: (
   "border-color": (
     property: border-color,
     class: border,
-    values: map-merge($theme-colors, ("white": $white, 'gray-100': $gray-100))
+    values: map-merge($theme-colors, ("white": $white, 'gray-100': $gray-100, 'black': $black, 'black-100': $black-100))
   ),
   "border-width": (
     property: border-width,

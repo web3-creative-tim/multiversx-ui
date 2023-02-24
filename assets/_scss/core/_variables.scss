@@ -31,7 +31,7 @@ $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
-$black:    #000 !default;
+$black:    #090909 !default;
 $black-100:#1E1E1E !default;
 $black-200:#393B3D !default;
 
@@ -75,7 +75,7 @@ $warning:       #FBBF24 !default;
 $danger:        #EF4444 !default;
 $purple:        #8B5CF6 !default;
 $light:         $slate-300 !default;
-$dark:          $slate-800 !default;
+$dark:          $black !default;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (

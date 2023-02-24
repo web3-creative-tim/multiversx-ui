@@ -250,6 +250,10 @@ function switchMode(el){
   icon.classList.toggle('fa-moon');
 
   if(!body.classList.contains('bg-black')){
+    // Add classes to toggle button
+    el.classList.remove('bg-black-100', 'border-black-100');
+    el.classList.add('btn-white');
+
     //Get all texts with .text-white class and replace them with .text-dark
     let textWhite = document.querySelectorAll('.text-white');
     textWhite.forEach((text) => {
@@ -299,6 +303,9 @@ function switchMode(el){
     });
 
   } else {
+    // Add classes to toggle button
+    el.classList.add('bg-black-100', 'border-black-100');
+    el.classList.remove('btn-white');
 
     // Redeclare new images
     let imagesToReplace = ['logo-multiversx-dark.svg', 'logo-creative-tim-dark.svg', 'elements-dark.png', 'design-dark.png', 'guideline-dark.png'];

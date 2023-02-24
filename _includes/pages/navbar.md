@@ -34,7 +34,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <button class="btn btn-outline-primary btn-icon px-3 mb-0" onclick="switchMode(this)">
+                <button class="btn bg-black-100 border-black-100 text-white btn-icon px-3 mb-0" onclick="switchMode(this)">
                   <i class="fa fa-sun"></i>
                 </button>
               </li>
