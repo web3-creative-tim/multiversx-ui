@@ -12,13 +12,13 @@ description: View all alert examples
 
 <div class="alert alert-info font-weight-bold" role="alert">
 	<span class="badge badge-info badge-sm text-white text-uppercase me-1">New</span>
-	<span class="alert-text text-sm">Receive and store your Elrond tokens.</span>
+	<span class="alert-text text-sm">Receive and store your MultiversX tokens.</span>
 </div>
 
 <div class="alert bg-gradient-dark text-white" role="alert">
 	<a href="javascript:;">
 		<span class="badge badge-white badge-sm text-dark text-uppercase me-1">New</span>
-		<span class="text-white text-sm"><u>Elrond acquires Utrust, initiates Web3 Payments revolution</u></span>
+		<span class="text-white text-sm"><u>MultiversX acquires Utrust, initiates Web3 Payments revolution</u></span>
 		<i class="fa fa-chevron-right text-white text-sm ms-2"></i>
 	</a>
 </div>
@@ -45,13 +45,13 @@ description: View all alert examples
 ```html
 <div class="alert alert-info font-weight-bold" role="alert">
 	<span class="badge badge-info badge-sm text-white text-uppercase me-1">New</span>
-	<span class="alert-text text-sm">Receive and store your Elrond tokens.</span>
+	<span class="alert-text text-sm">Receive and store your MultiversX tokens.</span>
 </div>
 
 <div class="alert bg-gradient-dark text-white" role="alert">
 	<a href="javascript:;">
 		<span class="badge badge-white badge-sm text-dark text-uppercase me-1">New</span>
-		<span class="text-white text-sm"><u>Elrond acquires Utrust, initiates Web3 Payments revolution</u></span>
+		<span class="text-white text-sm"><u>MultiversX acquires Utrust, initiates Web3 Payments revolution</u></span>
 		<i class="fa fa-chevron-right text-white text-sm ms-2"></i>
 	</a>
 </div>
@@ -77,12 +77,12 @@ description: View all alert examples
 <div>
   <div className="alert alert-info font-weight-bold" role="alert">
     <span className="badge badge-info badge-sm text-white text-uppercase me-1">New</span>
-    <span className="alert-text text-sm">Receive and store your Elrond tokens.</span>
+    <span className="alert-text text-sm">Receive and store your MultiversX tokens.</span>
   </div>
   <div className="alert bg-gradient-dark text-white" role="alert">
     <a href="javascript:;">
       <span className="badge badge-white badge-sm text-dark text-uppercase me-1">New</span>
-      <span className="text-white text-sm"><u>Elrond acquires Utrust, initiates Web3 Payments revolution</u></span>
+      <span className="text-white text-sm"><u>MultiversX acquires Utrust, initiates Web3 Payments revolution</u></span>
       <i className="fa fa-chevron-right text-white text-sm ms-2" />
     </a>
   </div>

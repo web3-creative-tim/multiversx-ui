@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Elrond Buttons
+title: MultiversX Buttons
 description: Use Bootstrap buttons and Bootstrap custom styles for actions in forms, dialogues, and more with support for multiple sizes, states, and more.
 ---
 

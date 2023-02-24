@@ -14,7 +14,7 @@ description: View all navbar examples
   <div class="container py-2">
     <nav aria-label="breadcrumb">
       <div class="d-flex align-items-center">
-        <span class="px-3 font-weight-bold text-lg text-white me-4">Elrond | Wallet</span>
+        <span class="px-3 font-weight-bold text-lg text-white me-4">MultiversX | Wallet</span>
       </div>
     </nav>
     <ul class="navbar-nav d-none d-lg-flex">
@@ -169,7 +169,7 @@ description: View all navbar examples
   <div class="container py-2">
     <nav aria-label="breadcrumb">
       <div class="d-flex align-items-center">
-        <span class="px-3 font-weight-bold text-lg text-white me-4">Elrond | Wallet</span>
+        <span class="px-3 font-weight-bold text-lg text-white me-4">MultiversX | Wallet</span>
       </div>
     </nav>
     <ul class="navbar-nav d-none d-lg-flex">
