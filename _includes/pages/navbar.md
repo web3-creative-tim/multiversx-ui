@@ -13,35 +13,35 @@
           </button>
           <div class="collapse navbar-collapse" id="navigation">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
+              <li class="nav-item d-flex">
                 <a class="nav-link text-white font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="{{root}}docs/overview/">
                   Docs
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item d-flex">
                 <a class="nav-link text-white font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="{{root}}#section-tools">
                   Develop
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item d-flex">
                 <a class="nav-link text-white font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="https://discord.com/invite/FhCJCaHdQa" rel="nofollow" target="_blank">
                   <i class="fab text-lg fa-discord"></i>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item d-flex">
                 <a class="nav-link text-white font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="https://github.com/web3-creative-tim" rel="nofollow" target="_blank">
                   <i class="fab text-lg fa-github"></i>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white font-weight-bold d-flex align-items-center me-2 btn btn-icon btn-outline-white mb-0" aria-current="page" onclick="switchMode(this)" rel="nofollow" target="_blank">
-                  <i class="fa text-lg fa-sun"></i>
-                </a>
+                <button class="btn btn-outline-primary btn-icon px-3 mb-0" onclick="switchMode(this)">
+                  <i class="fa fa-sun"></i>
+                </button>
               </li>
             </ul>
             <ul class="navbar-nav d-lg-block d-none">
               <li class="nav-item ms-2">
-                <a href="{{root}}docs/quick-start/" class="btn btn-sm btn-primary mb-0 border-radius-sm">Get Started</a>
+                <a href="{{root}}docs/quick-start/" class="btn btn-primary mb-0 border-radius-sm">Get Started</a>
               </li>
             </ul>
           </div>
