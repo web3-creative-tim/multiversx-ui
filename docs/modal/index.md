@@ -25,7 +25,7 @@ description: View all modal examples
         <button class="btn btn-outline-dark btn-round mb-0 w-100 mb-3 text-start d-flex align-items-center">
           <img width="21" height="18" src="https://nf-tim.creative-tim.com/nf-tim/login/defi.svg" class="me-2" alt="Extension">Maiar Defi Wallet </button>
         <button class="btn btn-outline-dark btn-round mb-0 w-100 mb-3 text-start d-flex align-items-center">
-          <img width="21" height="18" src="https://nf-tim.creative-tim.com/nf-tim/login/web.svg" class="me-2" alt="Web">Elrond Web Wallet </button>
+          <img width="21" height="18" src="https://nf-tim.creative-tim.com/nf-tim/login/web.svg" class="me-2" alt="Web">MultiversX Web Wallet </button>
         <button class="btn btn-outline-dark btn-round mb-0 w-100 text-start d-flex align-items-center">
           <img width="21" height="18" src="https://nf-tim.creative-tim.com/nf-tim/login/maiar.svg" class="me-2" alt="Maiar">Maiar Mobile App </button>
       </div>
@@ -54,7 +54,7 @@ description: View all modal examples
         <button class="btn btn-outline-dark btn-round mb-0 w-100 mb-3 text-start d-flex align-items-center">
           <img width="21" height="18" src="https://nf-tim.creative-tim.com/nf-tim/login/defi.svg" class="me-2" alt="Extension">Maiar Defi Wallet </button>
         <button class="btn btn-outline-dark btn-round mb-0 w-100 mb-3 text-start d-flex align-items-center">
-          <img width="21" height="18" src="https://nf-tim.creative-tim.com/nf-tim/login/web.svg" class="me-2" alt="Web">Elrond Web Wallet </button>
+          <img width="21" height="18" src="https://nf-tim.creative-tim.com/nf-tim/login/web.svg" class="me-2" alt="Web">MultiversX Web Wallet </button>
         <button class="btn btn-outline-dark btn-round mb-0 w-100 text-start d-flex align-items-center">
           <img width="21" height="18" src="https://nf-tim.creative-tim.com/nf-tim/login/maiar.svg" class="me-2" alt="Maiar">Maiar Mobile App </button>
       </div>

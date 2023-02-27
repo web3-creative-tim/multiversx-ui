@@ -74,7 +74,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">05/10/2022, 10:26:06</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -108,7 +108,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">05/10/2022, 10:26:00</span>
             </td>
-            <td class="d-flex align-items-center">27.3454 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">27.3454 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -142,7 +142,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">05/10/2022, 10:23:42</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -176,7 +176,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">05/10/2022, 10:22:42</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -210,7 +210,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">01/10/2022, 18:17:00</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -244,7 +244,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">30/09/2022, 11:17:42</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -278,7 +278,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">20/09/2022, 22:58:12</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -312,7 +312,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">15/09/2022, 13:22:30</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -346,7 +346,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">12/09/2022, 23:32:54</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -380,7 +380,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">12/09/2022, 23:30:48</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -485,7 +485,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">05/10/2022, 10:26:06</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -519,7 +519,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">05/10/2022, 10:26:00</span>
             </td>
-            <td class="d-flex align-items-center">27.3454 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">27.3454 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -553,7 +553,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">05/10/2022, 10:23:42</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -587,7 +587,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">05/10/2022, 10:22:42</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -621,7 +621,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">01/10/2022, 18:17:00</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -655,7 +655,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">30/09/2022, 11:17:42</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -689,7 +689,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">20/09/2022, 22:58:12</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -723,7 +723,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">15/09/2022, 13:22:30</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -757,7 +757,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">12/09/2022, 23:32:54</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -791,7 +791,7 @@ description: View all tables examples
             <td>
               <span class="text-sm font-weight-normal">12/09/2022, 23:30:48</span>
             </td>
-            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="elrond" class="ms-2">
+            <td class="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width="13" alt="multiversx" class="ms-2">
             </td>
             <td class="align-middle">
               <a href="javascript:;" target="_blank">
@@ -894,7 +894,7 @@ description: View all tables examples
             <td>
               <span className="text-sm font-weight-normal">05/10/2022, 10:26:06</span>
             </td>
-            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="elrond" className="ms-2" />
+            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="multiversx" className="ms-2" />
             </td>
             <td className="align-middle">
               <a href="javascript:;" target="_blank">
@@ -928,7 +928,7 @@ description: View all tables examples
             <td>
               <span className="text-sm font-weight-normal">05/10/2022, 10:26:00</span>
             </td>
-            <td className="d-flex align-items-center">27.3454 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="elrond" className="ms-2" />
+            <td className="d-flex align-items-center">27.3454 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="multiversx" className="ms-2" />
             </td>
             <td className="align-middle">
               <a href="javascript:;" target="_blank">
@@ -962,7 +962,7 @@ description: View all tables examples
             <td>
               <span className="text-sm font-weight-normal">05/10/2022, 10:23:42</span>
             </td>
-            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="elrond" className="ms-2" />
+            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="multiversx" className="ms-2" />
             </td>
             <td className="align-middle">
               <a href="javascript:;" target="_blank">
@@ -996,7 +996,7 @@ description: View all tables examples
             <td>
               <span className="text-sm font-weight-normal">05/10/2022, 10:22:42</span>
             </td>
-            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="elrond" className="ms-2" />
+            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="multiversx" className="ms-2" />
             </td>
             <td className="align-middle">
               <a href="javascript:;" target="_blank">
@@ -1030,7 +1030,7 @@ description: View all tables examples
             <td>
               <span className="text-sm font-weight-normal">01/10/2022, 18:17:00</span>
             </td>
-            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="elrond" className="ms-2" />
+            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="multiversx" className="ms-2" />
             </td>
             <td className="align-middle">
               <a href="javascript:;" target="_blank">
@@ -1064,7 +1064,7 @@ description: View all tables examples
             <td>
               <span className="text-sm font-weight-normal">30/09/2022, 11:17:42</span>
             </td>
-            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="elrond" className="ms-2" />
+            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="multiversx" className="ms-2" />
             </td>
             <td className="align-middle">
               <a href="javascript:;" target="_blank">
@@ -1098,7 +1098,7 @@ description: View all tables examples
             <td>
               <span className="text-sm font-weight-normal">20/09/2022, 22:58:12</span>
             </td>
-            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="elrond" className="ms-2" />
+            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="multiversx" className="ms-2" />
             </td>
             <td className="align-middle">
               <a href="javascript:;" target="_blank">
@@ -1132,7 +1132,7 @@ description: View all tables examples
             <td>
               <span className="text-sm font-weight-normal">15/09/2022, 13:22:30</span>
             </td>
-            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="elrond" className="ms-2" />
+            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="multiversx" className="ms-2" />
             </td>
             <td className="align-middle">
               <a href="javascript:;" target="_blank">
@@ -1166,7 +1166,7 @@ description: View all tables examples
             <td>
               <span className="text-sm font-weight-normal">12/09/2022, 23:32:54</span>
             </td>
-            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="elrond" className="ms-2" />
+            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="multiversx" className="ms-2" />
             </td>
             <td className="align-middle">
               <a href="javascript:;" target="_blank">
@@ -1200,7 +1200,7 @@ description: View all tables examples
             <td>
               <span className="text-sm font-weight-normal">12/09/2022, 23:30:48</span>
             </td>
-            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="elrond" className="ms-2" />
+            <td className="d-flex align-items-center">0 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Elrond_logo.svg" width={13} alt="multiversx" className="ms-2" />
             </td>
             <td className="align-middle">
               <a href="javascript:;" target="_blank">

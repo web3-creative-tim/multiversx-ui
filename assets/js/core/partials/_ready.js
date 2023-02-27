@@ -233,3 +233,129 @@ function toggleSidenav() {
     iconSidenav.classList.remove('d-none');
   }
 }
+
+// Switch Mode Function
+function switchMode(el){
+  let navbar = document.querySelector('.navbar');
+  let imagesToReplace = ['logo-multiversx.svg', 'logo-creative-tim.svg', 'elements.png', 'design.png', 'guideline.png'];
+
+  // Change the body background color
+  let body = document.querySelector('body');
+  body.classList.toggle('bg-black');
+
+  // Change the icon inside button
+  let icon = el.querySelector('.fa');
+
+  icon.classList.toggle('fa-sun');
+  icon.classList.toggle('fa-moon');
+
+  if(!body.classList.contains('bg-black')){
+    // Add classes to toggle button
+    el.classList.remove('bg-black-100', 'border-black-100');
+    el.classList.add('btn-white');
+
+    //Get all texts with .text-white class and replace them with .text-dark
+    let textWhite = document.querySelectorAll('.text-white');
+    textWhite.forEach((text) => {
+      if(!text.closest('.bg-black') && !text.closest('.bg-info')){
+        text.classList.remove('text-white');
+        text.classList.add('text-dark');
+      }
+    });
+
+    // Replace avatars bg color
+    let avatars = document.querySelectorAll('.avatar.bg-black-100');
+    avatars.forEach((avatar) => {
+      avatar.classList.remove('bg-black-100');
+      avatar.classList.add('bg-white', 'border');
+
+    });
+
+    // Replace card with bg dark
+    let cards = document.querySelectorAll('.card.bg-black-100');
+    cards.forEach((card) => {
+      card.classList.remove('bg-black-100');
+      card.classList.add('blur');
+    });
+
+    // Replace white badges within cards
+    let badges = document.querySelectorAll('.badge.border-white');
+    badges.forEach((badge) => {
+      badge.classList.remove('border-white');
+      badge.classList.add('border-dark', 'text-dark');
+    });
+
+    // Replace navbar bg color
+    navbar.classList.remove('bg-black-200');
+    navbar.classList.add('blur');
+
+    // Replace Images
+    imagesToReplace.forEach((image, i) => {
+      let currentImage = document.querySelector('img[src*="'+image+'"]');
+      let source = currentImage.src;
+      let newSource;
+      if(source.endsWith('.svg')){
+        newSource = source.replace('.svg', '') + "-dark.svg";
+      } else {
+        newSource = source.replace('.png', '') + "-dark.png";
+      }
+      currentImage.src = newSource;
+    });
+
+  } else {
+    // Add classes to toggle button
+    el.classList.add('bg-black-100', 'border-black-100');
+    el.classList.remove('btn-white');
+
+    // Redeclare new images
+    let imagesToReplace = ['logo-multiversx-dark.svg', 'logo-creative-tim-dark.svg', 'elements-dark.png', 'design-dark.png', 'guideline-dark.png'];
+
+     //Get all texts with .text-dark class and replace them with .text-white
+     let textDark = document.querySelectorAll('.text-dark');
+     textDark.forEach((text) => {
+       if(!text.closest('.bg-primary')){
+         text.classList.add('text-white');
+         text.classList.remove('text-dark');
+       }
+     });
+     // Replace avatars bg color
+     let avatars = document.querySelectorAll('.avatar.bg-white');
+     avatars.forEach((avatar) => {
+       avatar.classList.add('bg-black-100');
+       avatar.classList.remove('bg-light', 'border');
+     });
+
+     // Replace card with bg blur
+     let cards = document.querySelectorAll('.card.blur');
+     cards.forEach((card) => {
+       card.classList.add('bg-black-100');
+       card.classList.remove('blur');
+     });
+
+     // Replace dark badges within cards
+     let badges = document.querySelectorAll('.badge.border-dark');
+     badges.forEach((badge) => {
+       badge.classList.remove('border-dark');
+       badge.classList.add('border-white');
+     });
+
+     // Replace navbar bg color
+     navbar.classList.add('bg-black-200');
+     navbar.classList.remove('blur');
+     // Replace Images
+     imagesToReplace.forEach((image, i) => {
+       let currentImage = document.querySelector('img[src*="'+image+'"]');
+       let source = currentImage.src;
+       let newSource;
+       if(source.endsWith('.svg')){
+         newSource = source.replace('-dark.svg', '') + ".svg";
+       } else {
+         newSource = source.replace('-dark.png', '') + ".png";
+       }
+
+       imagesToReplace[i] = newSource;
+       currentImage.src = newSource;
+     });
+  }
+
+}

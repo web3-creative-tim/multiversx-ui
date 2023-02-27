@@ -8,7 +8,7 @@ description: View Get NFTs example
 
 ## Get NFT Example
 
-In this tutorial, we will learn how to create an NFT page with real data using components from Elrond Design System and Elrond API.
+In this tutorial, we will learn how to create an NFT page with real data using components from MultiversX Design System and MultiversX API.
 
 #### Requirements
 
@@ -44,7 +44,7 @@ In this tutorial, we will learn how to create an NFT page with real data using c
 				</g>
 			</svg>
 		</span>
-	  <span class="text-dark text-xs font-weight-bold me-1 ms-1">Elrond API</span>
+	  <span class="text-dark text-xs font-weight-bold me-1 ms-1">MultiversX API</span>
 	</badge>
 </div>
 
@@ -102,7 +102,7 @@ We recommend the following dependencies to be added to your <b>package.json</b> 
 {% endhighlight %}
 </div>
 
-### Get Collection from Elrond API
+### Get Collection from MultiversX API
 
 In your new component created file, you can use the below code to get NFT data:
 

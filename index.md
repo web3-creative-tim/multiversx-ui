@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elrond Elements
+title: MultiversX UI
 ---
 {% include root.html %}
 

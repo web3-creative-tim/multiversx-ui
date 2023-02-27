@@ -194,7 +194,7 @@ description: View all cards examples
 						<img src="https://raw.githubusercontent.com/ElrondNetwork/assets/master/tokens/NFTIM-4586ac/logo.png" class="avatar rounded-circle" alt="avatar"/>
 						<div class="ms-2">
 							<h5 class="mb-0 font-weight-bolder no_toc">NF-Tim</h5>
-							<p class="text-sm mb-0">First NFT utility project for Developers and Designers based on Elrond.</p>
+							<p class="text-sm mb-0">First NFT utility project for Developers and Designers based on MultiversX.</p>
 						</div>
 					</div>
 					<a href="javascript:;" class="btn btn-info w-100 mb-0">View collection</a>
@@ -215,7 +215,7 @@ description: View all cards examples
 			<img src="https://raw.githubusercontent.com/ElrondNetwork/assets/master/tokens/NFTIM-4586ac/logo.png" class="avatar rounded-circle" alt="avatar"/>
 			<div class="ms-2">
 				<h5 class="mb-0 font-weight-bolder">NF-Tim</h5>
-				<p class="text-sm mb-0">First NFT utility project for Developers and Designers based on Elrond.</p>
+				<p class="text-sm mb-0">First NFT utility project for Developers and Designers based on MultiversX.</p>
 			</div>
 		</div>
 		<a href="javascript:;" class="btn btn-info w-100 mb-0">View collection</a>
@@ -232,7 +232,7 @@ description: View all cards examples
       <img src="https://raw.githubusercontent.com/ElrondNetwork/assets/master/tokens/NFTIM-4586ac/logo.png" className="avatar rounded-circle" alt="avatar" />
       <div className="ms-2">
         <h5 className="mb-0 font-weight-bolder">NF-Tim</h5>
-        <p className="text-sm mb-0">First NFT utility project for Developers and Designers based on Elrond.</p>
+        <p className="text-sm mb-0">First NFT utility project for Developers and Designers based on MultiversX.</p>
       </div>
     </div>
     <a href="javascript:;" className="btn btn-info w-100 mb-0">View collection</a>

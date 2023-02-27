@@ -12,24 +12,24 @@ description: View all alert examples
 
 <div class="alert alert-info font-weight-bold" role="alert">
 	<span class="badge badge-info badge-sm text-white text-uppercase me-1">New</span>
-	<span class="alert-text text-sm">Receive and store your Elrond tokens.</span>
+	<span class="alert-text text-sm">Receive and store your MultiversX tokens.</span>
 </div>
 
 <div class="alert bg-gradient-dark text-white" role="alert">
 	<a href="javascript:;">
 		<span class="badge badge-white badge-sm text-dark text-uppercase me-1">New</span>
-		<span class="text-white text-sm"><u>Elrond acquires Utrust, initiates Web3 Payments revolution</u></span>
+		<span class="text-white text-sm"><u>MultiversX acquires Utrust, initiates Web3 Payments revolution</u></span>
 		<i class="fa fa-chevron-right text-white text-sm ms-2"></i>
 	</a>
 </div>
 
-<div class="alert bg-gradient-primary text-white" role="alert">
+<div class="alert bg-gradient-primary border-0 text-white" role="alert">
 	<div class="d-flex align-items-center">
 		<div>
-			<p class="font-weight-bolder mb-0">The Internet Scale Blockchain Is Live!</p>
-			<p class="text-xs mb-0">Develop, test & deploy with the tools you love</p>
+			<p class="font-weight-bolder text-dark mb-0">The Internet Scale Blockchain Is Live!</p>
+			<p class="text-xs text-dark mb-0">Develop, test & deploy with the tools you love</p>
 		</div>
-		<div data-bs-toggle="tooltip" data-bs-title="Default tooltip" class="ms-auto">
+		<div data-bs-toggle="tooltip" data-bs-title="Default tooltip" class="ms-auto text-dark">
 			<svg width="18" height="18" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
 			  <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
 			</svg>
@@ -45,22 +45,22 @@ description: View all alert examples
 ```html
 <div class="alert alert-info font-weight-bold" role="alert">
 	<span class="badge badge-info badge-sm text-white text-uppercase me-1">New</span>
-	<span class="alert-text text-sm">Receive and store your Elrond tokens.</span>
+	<span class="alert-text text-sm">Receive and store your MultiversX tokens.</span>
 </div>
 
 <div class="alert bg-gradient-dark text-white" role="alert">
 	<a href="javascript:;">
 		<span class="badge badge-white badge-sm text-dark text-uppercase me-1">New</span>
-		<span class="text-white text-sm"><u>Elrond acquires Utrust, initiates Web3 Payments revolution</u></span>
+		<span class="text-white text-sm"><u>MultiversX acquires Utrust, initiates Web3 Payments revolution</u></span>
 		<i class="fa fa-chevron-right text-white text-sm ms-2"></i>
 	</a>
 </div>
 
-<div class="alert bg-gradient-primary text-white" role="alert">
+<div class="alert bg-gradient-primary border-0 text-white" role="alert">
 	<div class="d-flex align-items-center">
 		<div>
-			<p class="font-weight-bolder mb-0">The Internet Scale Blockchain Is Live!</p>
-			<p class="text-xs mb-0">Develop, test & deploy with the tools you love</p>
+			<p class="font-weight-bolder text-dark mb-0">The Internet Scale Blockchain Is Live!</p>
+			<p class="text-xs text-dark mb-0">Develop, test & deploy with the tools you love</p>
 		</div>
 		<div data-bs-toggle="tooltip" data-bs-title="Default tooltip" class="ms-auto">
 			<svg width="18" height="18" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -77,20 +77,20 @@ description: View all alert examples
 <div>
   <div className="alert alert-info font-weight-bold" role="alert">
     <span className="badge badge-info badge-sm text-white text-uppercase me-1">New</span>
-    <span className="alert-text text-sm">Receive and store your Elrond tokens.</span>
+    <span className="alert-text text-sm">Receive and store your MultiversX tokens.</span>
   </div>
   <div className="alert bg-gradient-dark text-white" role="alert">
     <a href="javascript:;">
       <span className="badge badge-white badge-sm text-dark text-uppercase me-1">New</span>
-      <span className="text-white text-sm"><u>Elrond acquires Utrust, initiates Web3 Payments revolution</u></span>
+      <span className="text-white text-sm"><u>MultiversX acquires Utrust, initiates Web3 Payments revolution</u></span>
       <i className="fa fa-chevron-right text-white text-sm ms-2" />
     </a>
   </div>
-  <div className="alert bg-gradient-primary text-white" role="alert">
+  <div className="alert bg-gradient-primary border-0 text-white" role="alert">
     <div className="d-flex align-items-center">
       <div>
-        <p className="font-weight-bolder mb-0">The Internet Scale Blockchain Is Live!</p>
-        <p className="text-xs mb-0">Develop, test &amp; deploy with the tools you love</p>
+        <p className="font-weight-bolder text-dark mb-0">The Internet Scale Blockchain Is Live!</p>
+        <p className="text-xs text-dark mb-0">Develop, test &amp; deploy with the tools you love</p>
       </div>
       <div data-bs-toggle="tooltip" data-bs-title="Default tooltip" className="ms-auto">
         <svg width={18} height={18} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
@@ -604,7 +604,7 @@ description: View all alert examples
 
 <div class="ct-example">
 {% for color in site.data.theme.theme-colors %}
-<div class="alert bg-gradient-{{ color.name }} text-sm {% if color.name == 'white' %}text-dark{% else %}text-white{% endif %}" role="alert">
+<div class="alert bg-gradient-{{ color.name }} border-0 text-sm {% if color.name == 'white' %}text-dark{% else %}text-white{% endif %}" role="alert">
 	<div>
 		<p class="font-weight-bolder mb-0">The Internet Scale Blockchain Is Live!</p>
 		<p class="text-xs mb-0">Develop, test &amp; deploy with the tools you love</p>
@@ -631,7 +631,7 @@ description: View all alert examples
 	</div>
 </div>
 
-<div class="alert bg-gradient-primary text-white text-sm" role="alert">
+<div class="alert bg-gradient-primary border-0 text-white text-sm" role="alert">
 	<div>
 		<p class="font-weight-bolder mb-0">The Internet Scale Blockchain Is Live!</p>
 		<p class="text-xs mb-0">Develop, test &amp; deploy with the tools you love</p>
@@ -690,7 +690,7 @@ description: View all alert examples
       <p className="text-xs mb-0">Develop, test &amp; deploy with the tools you love</p>
     </div>
   </div>
-  <div className="alert bg-gradient-primary text-white text-sm" role="alert">
+  <div className="alert bg-gradient-primary border-0 text-white text-sm" role="alert">
     <div>
       <p className="font-weight-bolder mb-0">The Internet Scale Blockchain Is Live!</p>
       <p className="text-xs mb-0">Develop, test &amp; deploy with the tools you love</p>

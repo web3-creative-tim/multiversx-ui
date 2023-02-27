@@ -2,19 +2,19 @@
 <svg width="1000px" height="869px" viewBox="0 0 1000 869" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>gradient-blob</title>
     <defs>
-        <filter x="-24.6%" y="-28.4%" width="149.2%" height="156.9%" filterUnits="objectBoundingBox" id="filter-1">
+        <filter x="-26.3%" y="-30.4%" width="152.6%" height="160.9%" filterUnits="objectBoundingBox" id="filter-1">
             <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
         </filter>
-        <filter x="-28.5%" y="-31.3%" width="157.1%" height="162.5%" filterUnits="objectBoundingBox" id="filter-2">
+        <filter x="-30.5%" y="-33.4%" width="161.0%" height="166.9%" filterUnits="objectBoundingBox" id="filter-2">
             <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
         </filter>
-        <filter x="-26.5%" y="-35.9%" width="153.0%" height="171.8%" filterUnits="objectBoundingBox" id="filter-3">
+        <filter x="-28.3%" y="-35.4%" width="156.6%" height="170.9%" filterUnits="objectBoundingBox" id="filter-3">
             <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
         </filter>
     </defs>
     <g id="gradient-blob" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <ellipse id="Oval-Copy-13" fill="#FF00E3" opacity="0.308268229" filter="url(#filter-1)" cx="562.168857" cy="400.721562" rx="304.831143" ry="263.721562"></ellipse>
-        <ellipse id="Oval-Copy-14" fill="#6BACFF" opacity="0.764648438" filter="url(#filter-2)" cx="395.703683" cy="391.071156" rx="262.703683" ry="239.933303"></ellipse>
-        <ellipse id="Oval-Copy-12" fill="#744AF0" opacity="0.257765997" filter="url(#filter-3)" cx="516.015656" cy="516.230461" rx="283.158449" ry="208.769539"></ellipse>
+        <ellipse id="Oval-Copy-13" fill-opacity="0.510462194" fill="#00B3FF" opacity="0.308268229" filter="url(#filter-1)" cx="554.798245" cy="434.943124" rx="285.143345" ry="246.5"></ellipse>
+        <ellipse id="Oval-Copy-14" fill-opacity="0.515379152" fill="#6BE1FF" opacity="0.764648438" filter="url(#filter-2)" cx="302.736726" cy="439.008681" rx="245.736726" ry="224.265163"></ellipse>
+        <ellipse id="Oval-Copy-12" fill="#4AF0E8" opacity="0.257765997" filter="url(#filter-3)" cx="678.129598" cy="417.911468" rx="264.870402" ry="211.709083"></ellipse>
     </g>
 </svg>

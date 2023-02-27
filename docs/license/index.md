@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: License
-description: Learn more about the license Elrond Elements offers.
+description: Learn more about the license MultiversX UI offers.
 ---
 GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
