@@ -4,7 +4,7 @@
   "description": "The perfect starting point for your MultiversX Web 3.0 dApps",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/web3-creative-tim/multiversx-ui.git"
+    "url": "git@github.com:web3-creative-tim/multiversx-ui.git"
   },
   "keywords": [
     "web3",
