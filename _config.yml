@@ -1,7 +1,7 @@
-title: Elrond Elements
+title: MultiversX UI
 email: rares@creative-tim.com
 description: >-
-  Start your development with a Design System for Elrond.
+  Start your development with a Design System for MultiversX.
 url: ''
 
 sidebar_yml: "sidebar.yml"
@@ -53,7 +53,7 @@ github_username: web3-creative-tim
 github_repo: elrond-elements
 docs_assets:
   elrond-elements:
-    head_title: Elrond Elements by Creative Tim
+    head_title: MultiversX UI by Creative Tim
 
 plugins:
   - jekyll-toc
@@ -87,7 +87,7 @@ author: Creative Tim
 website_url: ''
 product_purchase:
 product_download:
-product_name: 'Elrond Elements'
+product_name: 'MultiversX UI'
 blog: ''
 presentation: ''
 contact: ''
@@ -117,17 +117,17 @@ meta:
   twitter:
     card: product
     site_name: '@creativetim'
-    title: Elrond Elements by Creative Tim
+    title: MultiversX UI by Creative Tim
     creator: '@creativetim'
 
   facebook:
     id: 655968634437471
-    title: Elrond Elements by Creative Tim
+    title: MultiversX UI by Creative Tim
     type: article
     url: ''
     site_name: Creative Tim
 
-  description: Start your development with a Design System for Elrond.
+  description: Start your development with a Design System for MultiversX.
   image: https://s3.amazonaws.com/creativetim_bucket/products/450/original/opt_sd_free_thumbnail.png
 
 # permalink: /:title/

@@ -1,11 +1,11 @@
 - name: dark
-  hex: "#1E293B"
+  hex: "#090909"
 - name: white
   hex: "#FFFFFF"
 - name: primary
   hex: "#3066FF"
 - name: secondary
-  hex: "#9BA5B4"
+  hex: "#393B3D"
 - name: info
   hex: "#17A2B8"
 - name: success
@@ -14,3 +14,5 @@
   hex: "#DC3545"
 - name: warning
   hex: "#FFC107"
+- name: purple
+  hex: "#8B5CF6"

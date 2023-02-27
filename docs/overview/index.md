@@ -1,7 +1,7 @@
 ---
 title: Overview
 layout: docs
-description: An user-friendly, open source and beautiful design system for Elrond.
+description: An user-friendly, open source and beautiful design system for MultiversX.
 ---
 
 We at [{{ site.author }}](https://www.creative-tim.com/){:target="_blank"} have always wanted to deliver great tools to all the web developers. We want to see better websites and web apps on the internet.
@@ -12,7 +12,7 @@ We at [{{ site.author }}](https://www.creative-tim.com/){:target="_blank"} have 
       <div class="card-body text-center">
         <h5 class="mb-2">Developer First</h5>
         <p class="mb-0">
-          Elrond Elements is a "Developer First" product, with a lot of variables for colors, fonts, sizes and other elements.
+          MultiversX UI is a "Developer First" product, with a lot of variables for colors, fonts, sizes and other elements.
         </p>
       </div>
     </div>
@@ -34,7 +34,7 @@ We at [{{ site.author }}](https://www.creative-tim.com/){:target="_blank"} have 
       <div class="card-body text-center">
         <h5 class="mb-2">Community helpers</h5>
         <p>
-          Since all our products are built on top of Open Source also Elrond Elements is released under <b>GPL-3.0</b>.
+          Since all our products are built on top of Open Source also MultiversX UI is released under <b>GPL-3.0</b>.
         </p>
       </div>
     </div>

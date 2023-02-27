@@ -45,7 +45,7 @@ Many of our components require the use of JavaScript to function. Specifically ,
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 
 
-<!-- Elrond Elements JS -->
+<!-- MultiversX UI JS -->
 <script src="https://cdn.jsdelivr.net/gh/web3-creative-tim/elrond-elements@main/dist/js/elrond-elements.min.js"></script>
 {% endhighlight %}
 
@@ -66,7 +66,7 @@ Be sure to have your pages set up with the latest design and development standar
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <title>
-    Elrond Elements
+    MultiversX UI
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
@@ -87,7 +87,7 @@ Be sure to have your pages set up with the latest design and development standar
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 
 
-  <!-- Control Center for Elrond Elements: parallax effects, scripts for the example pages etc -->
+  <!-- Control Center for MultiversX UI: parallax effects, scripts for the example pages etc -->
   <script src="https://cdn.jsdelivr.net/gh/web3-creative-tim/elrond-elements@main/dist/js/elrond-elements.min.js"></script>
 </body>
 
@@ -99,7 +99,7 @@ Be sure to have your pages set up with the latest design and development standar
 
 ## Important Globals
 
-Elrond Elements employs a handful of important global styles and settings that you'll need to be aware of when using it, all of which are almost exclusively geared towards the *normalization* of cross browser styles. Let's dive in.
+MultiversX UI employs a handful of important global styles and settings that you'll need to be aware of when using it, all of which are almost exclusively geared towards the *normalization* of cross browser styles. Let's dive in.
 
 ### HTML5 Doctype
 

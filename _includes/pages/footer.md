@@ -1,10 +1,10 @@
-<footer class="footer {% if page.layout == 'page' %} bg-slate-900 pt-5 pb-4 {% else %} py-4 {% endif %} position-relative">
+<footer class="footer {% if page.layout == 'page' %} bg-black pt-5 pb-4 {% else %} py-4 {% endif %} position-relative">
   <div class="container position-relative z-index-1">
     <div class="row">
       <div class="col-xl-4 {% if page.layout == 'docs' %} ms-xl-5 {% endif %} me-auto mb-xl-0 mb-4 text-xl-start text-center">
-        <h6 class="{% if page.layout != 'docs' %} text-white {% endif %} text-2xl font-weight-black mb-2">Elrond Elements</h6>
+        <h6 class="{% if page.layout != 'docs' %} text-white {% endif %} text-2xl font-weight-black mb-2">MultiversX UI</h6>
         <p class="text-sm {% if page.layout != 'docs' %} text-white {% endif %}">
-          Designed and Coded by <a href="https://www.creative-tim.com/" target="_blank" class="{% if page.layout != 'docs' %} text-white {% endif %}" rel="nofollow">Creative Tim</a> for the Elrond Ecosystem.
+          Designed and Coded by <a href="https://www.creative-tim.com/" target="_blank" class="{% if page.layout != 'docs' %} text-white {% endif %}" rel="nofollow">Creative Tim</a> for the MultiversX Ecosystem.
         </p>
         <p class="text-sm mb-1 {% if page.layout != 'docs' %} text-white {% endif %}">
           Code licensed <a href="{{root}}docs/license/" class="{% if page.layout != 'docs' %} text-white {% else %} text-dark {% endif %}">GPL-3.0.</a>
@@ -43,13 +43,13 @@
                   <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://github.com/web3-creative-tim" rel="nofollow" target="_blank"> Web 3.0 dApps </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://elrond-elements.com/docs/buttons/" target="_blank"> Docs Elrond Elements </a>
+                  <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://multiversx-ui.com/docs/buttons/" target="_blank"> Docs MultiversX UI </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://elrond-elements.com/#section-tools" target="_blank"> Tools </a>
+                  <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://multiversx-ui.com/#section-tools" target="_blank"> Tools </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://elrond-elements.com/docs/get-nfts/" rel="nofollow" target="_blank"> Tutorials </a>
+                  <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://multiversx-ui.com/docs/get-nfts/" rel="nofollow" target="_blank"> Tutorials </a>
                 </li>
               </ul>
             </div>
@@ -59,16 +59,16 @@
               <h6 class="{% if page.layout != 'docs' %} text-white {% endif %} font-weight-bolder text-sm">Ecosystem</h6>
               <ul class="flex-column ms-n3 nav">
                 <li class="nav-item">
-                  <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://maiar.exchange/" rel="nofollow" target="_blank">Maiar Exchange</a>
+                  <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://xexchange.com/" rel="nofollow" target="_blank">Maiar Exchange</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://wallet.elrond.com/" rel="nofollow" target="_blank">Elrond Wallet</a>
+                  <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://wallet.multiversx.com/" rel="nofollow" target="_blank">MultiversX Wallet</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://bhero.com/" rel="nofollow" target="_blank">BHero Launchpad </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://egldhub.dev/" rel="nofollow" target="_blank">Elrond Dev Hub</a>
+                  <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://xdevhub.com/" rel="nofollow" target="_blank">MultiversX Dev Hub</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://xoxno.com/" rel="nofollow" target="_blank">XOXNO Marketplace</a>
