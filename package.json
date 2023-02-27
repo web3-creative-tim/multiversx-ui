@@ -1,10 +1,10 @@
 {
-  "name": "@ct-web3/multivers-ui",
+  "name": "@ct-web3/multiversx-ui",
   "version": "1.0.0-alpha",
   "description": "The perfect starting point for your MultiversX Web 3.0 dApps",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/web3-creative-tim/multivers-ui.git"
+    "url": "git+https://github.com/web3-creative-tim/multiversx-ui.git"
   },
   "keywords": [
     "web3",
@@ -14,7 +14,7 @@
   "author": "Creative Tim",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/web3-creative-tim/multivers-ui/issues"
+    "url": "https://github.com/web3-creative-tim/multiversx-ui/issues"
   },
-  "homepage": "https://multivers-ui.com"
+  "homepage": "https://multiversx-ui.com"
 }
