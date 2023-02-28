@@ -24,7 +24,7 @@
       <div class="col-md-8 mx-auto text-center font-weight-bold text-white d-flex align-items-center justify-content-center">
         <span class="pe-2">Blockchain by</span>
         <img src="{{root}}assets/img/logos/logo-multiversx.svg" class="me-2 avatar avatar-xxl" alt="logo-multiversx">
-        <span class="border-start border-2 border-dark ps-2">Design & Code by </span>
+        <span class="border-start border-2 border-white ps-2">Design & Code by </span>
         <img src="{{root}}assets/img/logos/logo-creative-tim.svg" class="avatar avatar-xxl ms-2" alt="logo-creative-tim">
       </div>
     </div>

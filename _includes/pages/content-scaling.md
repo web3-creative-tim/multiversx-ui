@@ -70,12 +70,16 @@
                   <path d="M12 7.875a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25z" />
                 </svg>
               </div>
-              <span class="badge border border-white text-capitalize shadow-xs ms-auto">Coming soon</span>
+              <div class="icon icon-xs rounded-circle d-flex align-items-center text-center ms-auto bg-info">
+                <i class="fa fa-check mx-auto text-white"></i>
+              </div>
             </div>
             <h5 class="mb-1 font-weight-bolder text-white">Custom Development Services</h5>
             <p class="mb-3 text-sm text-white">
               All the resources that we share are a good starting point in your journey. If you need extra support, our team will be there to help.
             </p>
+            <a href="https://www.creative-tim.com/services/blockchain" target="_blank" class="text-primary text-sm font-weight-bold icon-move-rightw-100"> Custom Development <i class="fas fa-arrow-right-long text-sm ms-1" aria-hidden="true"></i>
+            </a>
           </div>
         </div>
       </div>

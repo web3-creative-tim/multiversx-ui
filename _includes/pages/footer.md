@@ -59,7 +59,7 @@
               <h6 class="{% if page.layout != 'docs' %} text-white {% endif %} font-weight-bolder text-sm">Ecosystem</h6>
               <ul class="flex-column ms-n3 nav">
                 <li class="nav-item">
-                  <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://xexchange.com/" rel="nofollow" target="_blank">Maiar Exchange</a>
+                  <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://xexchange.com/" rel="nofollow" target="_blank">X Exchange</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link {% if page.layout != 'docs' %} text-white {% endif %}" href="https://wallet.multiversx.com/" rel="nofollow" target="_blank">MultiversX Wallet</a>
