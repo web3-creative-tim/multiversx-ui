@@ -271,6 +271,13 @@ function switchMode(el){
 
     });
 
+    // Replace border white
+    let borders = document.querySelectorAll('.border-2.border-white');
+    borders.forEach((border) => {
+      border.classList.add('border-dark');
+      border.classList.remove('border-white');
+    });
+
     // Replace card with bg dark
     let cards = document.querySelectorAll('.card.bg-black-100');
     cards.forEach((card) => {
@@ -313,7 +320,7 @@ function switchMode(el){
      //Get all texts with .text-dark class and replace them with .text-white
      let textDark = document.querySelectorAll('.text-dark');
      textDark.forEach((text) => {
-       if(!text.closest('.bg-primary')){
+       if(!text.closest('.bg-primary') && !text.closest('.bg-white')){
          text.classList.add('text-white');
          text.classList.remove('text-dark');
        }
@@ -323,6 +330,13 @@ function switchMode(el){
      avatars.forEach((avatar) => {
        avatar.classList.add('bg-black-100');
        avatar.classList.remove('bg-light', 'border');
+     });
+
+     // Replace border dark
+     let borders = document.querySelectorAll('.border-2.border-dark');
+     borders.forEach((border) => {
+       border.classList.add('border-white');
+       border.classList.remove('border-dark');
      });
 
      // Replace card with bg blur

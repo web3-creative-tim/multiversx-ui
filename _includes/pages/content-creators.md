@@ -14,7 +14,7 @@
       </div>
       <div class="col-lg-7 mt-sm-0 mt-5">
         <div class="d-sm-flex align-items-center">
-          <div class="card card-highlight w-sm-60 w-100 shadow-lg border border-dark border-radius-lg overflow-hidden ms-auto">
+          <div class="card card-highlight w-sm-60 w-100 shadow-lg border border-dark bg-dark border-radius-lg overflow-hidden ms-auto">
 {% highlight html %}
 <div class="card card-background border-radius-xl card-background-after-none align-items-start mb-4">
   <div class="full-background bg-cover" style="background-image: url('{{root}}assets/img/img-cube.jpg')"></div>
