@@ -16,8 +16,8 @@
   pages:
     - title: Get NFTs
       folder: get-nft
-    - title: Get Holders
-      folder: get-holders
+    - title: Get Stats Collection
+      folder: get-stats
     - title: DAO Management
       folder: dao-management
       soon: true
