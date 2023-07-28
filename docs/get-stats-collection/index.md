@@ -6,7 +6,7 @@ description: View Get Stats Collection example
 
 {% include edit-on-github.md %}
 
-## Get Holders Example
+## Get Stats Collection Example
 
 In this tutorial, we will learn how to get stats from an NFT collection with real data using components from MultiversX Design System and MultiversX API.
 
