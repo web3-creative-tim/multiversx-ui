@@ -3,8 +3,8 @@ title: Get NFTs Example
 layout: docs
 description: View Get NFTs example
 ---
-{% include edit-on-github.md %}
 
+{% include edit-on-github.md %}
 
 ## Get NFT Example
 
@@ -15,7 +15,7 @@ In this tutorial, we will learn how to create an NFT page with real data using c
 <div class="d-flex mb-4">
 	<badge class="border boder-dark border-radius-xl d-flex align-items-center me-2 p-1">
 	  <span class="badge badge-sm badge-circle bg-gradient-dark">
-			<img src="https://raw.githubusercontent.com/reactjs/reactjs.org/main/src/icons/logo.svg" class="p-1">
+			<img src="https://rawcdn.githack.com/creativetimofficial/public-assets/97ff47828002f59b86794be6035511387e21c2c4/logos/react-logo.png" class="p-1 img-fluid">
 		</span>
 	  <span class="text-dark text-xs font-weight-bold me-1 ms-1">React</span>
 	</badge>
@@ -60,46 +60,47 @@ We recommend the following dependencies to be added to your <b>package.json</b> 
 {% highlight javascript %}
 
 {
-  "name": "Your project",
-  "version": "1.0.0",
-  "author": "Author",
-  "license": "License",
-  "homepage": "your_homepage",
-  "repository": {
-    "type": "git",
-    "url": "your_url"
-  },
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export",
-    "lint": "next lint",
-    "format": "prettier --write '**/*.{js,ts,tsx,json}'"
-  },
-  "dependencies": {
-    "next": "^12.2.0",
-    "react": "17.0.2",
-    "react-bootstrap": "^2.4.0",
-    "react-dom": "17.0.2",
-    "react-router-dom": "^6.3.0",
-    "sass": "^1.53.0"
-  },
-  "devDependencies": {
-    "@types/jsonwebtoken": "^8.5.8",
-    "@types/lodash.clonedeep": "^4.5.7",
-    "eslint": "8.19.0",
-    "eslint-config-next": "12.2.0",
-    "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-valtio": "0.4.4",
-    "prettier": "2.7.1",
-    "typescript": "4.7.4"
-  }
+"name": "Your project",
+"version": "1.0.0",
+"author": "Author",
+"license": "License",
+"homepage": "your_homepage",
+"repository": {
+"type": "git",
+"url": "your_url"
+},
+"private": true,
+"scripts": {
+"dev": "next dev",
+"build": "next build",
+"start": "next start",
+"export": "next export",
+"lint": "next lint",
+"format": "prettier --write '\*_/_.{js,ts,tsx,json}'"
+},
+"dependencies": {
+"next": "^12.2.0",
+"react": "17.0.2",
+"react-bootstrap": "^2.4.0",
+"react-dom": "17.0.2",
+"react-router-dom": "^6.3.0",
+"sass": "^1.53.0"
+},
+"devDependencies": {
+"@types/jsonwebtoken": "^8.5.8",
+"@types/lodash.clonedeep": "^4.5.7",
+"eslint": "8.19.0",
+"eslint-config-next": "12.2.0",
+"eslint-config-prettier": "8.5.0",
+"eslint-plugin-prettier": "^4.2.1",
+"eslint-plugin-valtio": "0.4.4",
+"prettier": "2.7.1",
+"typescript": "4.7.4"
+}
 }
 
 {% endhighlight %}
+
 </div>
 
 ### Get Collection from MultiversX API
@@ -111,14 +112,15 @@ In your new component created file, you can use the below code to get NFT data:
 import React, { useState, useEffect, useMemo } from 'react';
 
 const MyCollection = (props) => {
-	const ref = React.createRef();
+const ref = React.createRef();
 
-	const [loading, setLoading] = useState(true);
-  const [elrondData, setElrondData] = useState([]);
-  const [myNFTS, setMyNFTS] = useState([]);
-	const [address, setAddress] = useState('');
+    const [loading, setLoading] = useState(true);
 
-	useEffect(() => {
+const [elrondData, setElrondData] = useState([]);
+const [myNFTS, setMyNFTS] = useState([]);
+const [address, setAddress] = useState('');
+
+    useEffect(() => {
     fetch(
       `https://api.elrond.com/accounts/${address}/nfts?size=10000`,
       {
@@ -136,9 +138,11 @@ const MyCollection = (props) => {
     setTimeout(() => {
       setLoading(false);
     }, 1000);
-  }, [address]);
+
+}, [address]);
 };
 {% endhighlight %}
+
 </div>
 
 ### Design NFT Card
@@ -179,6 +183,7 @@ const MyCollection = (props) => {
 </div>
 
 {% endhighlight %}
+
 </div>
 
 ### Add Modal to the NFT Card
@@ -293,129 +298,134 @@ In order to see the attributes of the NFT we will need to add a modal to the car
 </div>
 
 <!-- Modal -->
+
 <Modal
-	show={modalIsOpen}
-	onHide={handleClose}
-	size="lg"
-	className="d-flex align-items-center"
+show={modalIsOpen}
+onHide={handleClose}
+size="lg"
+className="d-flex align-items-center"
+
 >
-	<Modal.Body className="p-0">
-		<button
-			type="button"
-			className="btn btn-white text-dark shadow-none my-1 top-0 position-absolute z-index-1"
-			style={{ right: '0' }}
-			onClick={handleClose}
-			aria-label="Close"
-		>
-			<i className="fas fa-times"></i>
-		</button>
-		<div className="card text-center shadow-none">
-			<div className="card-body">
-				<div className="row">
-					<div className="col-sm-5 col-md-6 col-lg-4 mx-sm-auto d-flex align-items-center">
-						<img
-							src={modalImage}
-							className="img-fluid border-radius-lg shadow d-none d-sm-block"
-							alt=""
-						/>
-					</div>
-					<div className="col-md-12 col-lg-8 mt-4 mt-lg-0">
-						<div className="row">
-							<div className="col-md-12 text-start">
-								<h5 className="text-capitalize mb-3 text-center text-lg-start">
-									{modalData.map((data, i) => {
-										return (
-											<span key={i}>
-												{data?.attributes[6][1]?.value} &nbsp; #
-												{data.nonce}
-											</span>
-										);
-									})}
-								</h5>
-							</div>
 
-							<div className="col-md-6 col-sm-6">
-								<p className="text-center text-sm-start text-dark text-sm font-weight-normal mb-2">
-									Attributes
-								</p>
-							</div>
-							<div className="col-md-6 col-sm-6">
-								<p className="text-center text-sm-end text-dark text-sm font-weight-normal mb-4 mb-lg-2">
-									Rarity Score:{' '}
-									<span className="font-weight-bolder">
-										{modalData.map((data, i) =>
-											data?.rarity[2][1].toFixed(3)
-										)}
-									</span>
-								</p>
-							</div>
-						</div>
+    <Modal.Body className="p-0">
+    	<button
+    		type="button"
+    		className="btn btn-white text-dark shadow-none my-1 top-0 position-absolute z-index-1"
+    		style={{ right: '0' }}
+    		onClick={handleClose}
+    		aria-label="Close"
+    	>
+    		<i className="fas fa-times"></i>
+    	</button>
+    	<div className="card text-center shadow-none">
+    		<div className="card-body">
+    			<div className="row">
+    				<div className="col-sm-5 col-md-6 col-lg-4 mx-sm-auto d-flex align-items-center">
+    					<img
+    						src={modalImage}
+    						className="img-fluid border-radius-lg shadow d-none d-sm-block"
+    						alt=""
+    					/>
+    				</div>
+    				<div className="col-md-12 col-lg-8 mt-4 mt-lg-0">
+    					<div className="row">
+    						<div className="col-md-12 text-start">
+    							<h5 className="text-capitalize mb-3 text-center text-lg-start">
+    								{modalData.map((data, i) => {
+    									return (
+    										<span key={i}>
+    											{data?.attributes[6][1]?.value} &nbsp; #
+    											{data.nonce}
+    										</span>
+    									);
+    								})}
+    							</h5>
+    						</div>
 
-						{modalData.map((data, i) => (
-							<div className="row" key={i}>
-								<div className="col-md-6">
-									<div className="card card-body py-2 shadow-none border text-start mb-2">
-										<h6 className="text-xs text-muted font-weight-normal mb-1">
-											{data?.attributes[0][1]?.trait_type}
-										</h6>
-										<h6 className="text-sm m-0">
-											{data?.attributes[0][1]?.value}
-										</h6>
-									</div>
-									<div className="card card-body py-2 shadow-none border text-start mb-2">
-										<h6 className="text-xs text-muted font-weight-normal mb-1">
-											{data?.attributes[1][1]?.trait_type}
-										</h6>
-										<h6 className="text-sm m-0">
-											{data?.attributes[1][1]?.value}
-										</h6>
-									</div>
-									<div className="card card-body py-2 shadow-none border text-start mb-2 mb-lg-0">
-										<h6 className="text-xs text-muted font-weight-normal mb-1">
-											{data?.attributes[2][1]?.trait_type}
-										</h6>
-										<h6 className="text-sm m-0">
-											{data?.attributes[2][1]?.value}
-										</h6>
-									</div>
-								</div>
+    						<div className="col-md-6 col-sm-6">
+    							<p className="text-center text-sm-start text-dark text-sm font-weight-normal mb-2">
+    								Attributes
+    							</p>
+    						</div>
+    						<div className="col-md-6 col-sm-6">
+    							<p className="text-center text-sm-end text-dark text-sm font-weight-normal mb-4 mb-lg-2">
+    								Rarity Score:{' '}
+    								<span className="font-weight-bolder">
+    									{modalData.map((data, i) =>
+    										data?.rarity[2][1].toFixed(3)
+    									)}
+    								</span>
+    							</p>
+    						</div>
+    					</div>
 
-								<div className="col-md-6">
-									<div className="card card-body py-2 shadow-none border text-start mb-2">
-										<h6 className="text-xs text-muted font-weight-normal mb-1">
-											{data?.attributes[3][1]?.trait_type}
-										</h6>
-										<h6 className="text-sm m-0">
-											{data?.attributes[3][1]?.value}
-										</h6>
-									</div>
-									<div className="card card-body py-2 shadow-none border text-start mb-2">
-										<h6 className="text-xs text-muted font-weight-normal mb-1">
-											{data?.attributes[4][1]?.trait_type}
-										</h6>
-										<h6 className="text-sm m-0">
-											{data?.attributes[4][1]?.value}
-										</h6>
-									</div>
-									<div className="card card-body py-2 shadow-none border text-start">
-										<h6 className="text-xs text-muted font-weight-normal mb-1">
-											{data?.attributes[5][1]?.trait_type}
-										</h6>
-										<h6 className="text-sm m-0">
-											{data?.attributes[5][1]?.value}
-										</h6>
-									</div>
-								</div>
-							</div>
-						))}
-					</div>
-				</div>
-			</div>
-		</div>
-	</Modal.Body>
+    					{modalData.map((data, i) => (
+    						<div className="row" key={i}>
+    							<div className="col-md-6">
+    								<div className="card card-body py-2 shadow-none border text-start mb-2">
+    									<h6 className="text-xs text-muted font-weight-normal mb-1">
+    										{data?.attributes[0][1]?.trait_type}
+    									</h6>
+    									<h6 className="text-sm m-0">
+    										{data?.attributes[0][1]?.value}
+    									</h6>
+    								</div>
+    								<div className="card card-body py-2 shadow-none border text-start mb-2">
+    									<h6 className="text-xs text-muted font-weight-normal mb-1">
+    										{data?.attributes[1][1]?.trait_type}
+    									</h6>
+    									<h6 className="text-sm m-0">
+    										{data?.attributes[1][1]?.value}
+    									</h6>
+    								</div>
+    								<div className="card card-body py-2 shadow-none border text-start mb-2 mb-lg-0">
+    									<h6 className="text-xs text-muted font-weight-normal mb-1">
+    										{data?.attributes[2][1]?.trait_type}
+    									</h6>
+    									<h6 className="text-sm m-0">
+    										{data?.attributes[2][1]?.value}
+    									</h6>
+    								</div>
+    							</div>
+
+    							<div className="col-md-6">
+    								<div className="card card-body py-2 shadow-none border text-start mb-2">
+    									<h6 className="text-xs text-muted font-weight-normal mb-1">
+    										{data?.attributes[3][1]?.trait_type}
+    									</h6>
+    									<h6 className="text-sm m-0">
+    										{data?.attributes[3][1]?.value}
+    									</h6>
+    								</div>
+    								<div className="card card-body py-2 shadow-none border text-start mb-2">
+    									<h6 className="text-xs text-muted font-weight-normal mb-1">
+    										{data?.attributes[4][1]?.trait_type}
+    									</h6>
+    									<h6 className="text-sm m-0">
+    										{data?.attributes[4][1]?.value}
+    									</h6>
+    								</div>
+    								<div className="card card-body py-2 shadow-none border text-start">
+    									<h6 className="text-xs text-muted font-weight-normal mb-1">
+    										{data?.attributes[5][1]?.trait_type}
+    									</h6>
+    									<h6 className="text-sm m-0">
+    										{data?.attributes[5][1]?.value}
+    									</h6>
+    								</div>
+    							</div>
+    						</div>
+    					))}
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </Modal.Body>
+
 </Modal>
 
 {% endhighlight %}
+
 </div>
 
 <div class="position-relative">
@@ -430,6 +440,7 @@ const [modalImage, setModalImage] = React.useState([]);
 ...
 
 {% endhighlight %}
+
 </div>
 
 See a more complex example here: <a href="https://github.com/web3-creative-tim/elrond-my-nfts-collection-dapp" rel="nofollow" target="_blank">Elrond My NFTs Collection Dapp by Creative Tim </a>.
