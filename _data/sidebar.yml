@@ -18,6 +18,8 @@
       folder: get-nft
     - title: Get Stats Collection
       folder: get-stats
+    - title: Get Tokens
+      folder: get-tokens
     - title: DAO Management
       folder: dao-management
       soon: true
