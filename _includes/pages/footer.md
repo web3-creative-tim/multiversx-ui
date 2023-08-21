@@ -82,7 +82,12 @@
         <p class="text-sm {% if page.layout != 'docs' %} text-white {% endif %} opacity-8 mb-0 text-center"> All rights reserved. Copyright © <script>
           document.write(new Date().getFullYear())
         </script> Coded Design System by <a href="https://www.creative-tim.com/" class="{% if page.layout != 'docs' %} text-white {% endif %}" rel="nofollow" target="_blank">Creative Tim</a>. </p>
+
+        <p class="text-sm mt-2 {% if page.layout != 'docs' %} text-white {% endif %} opacity-8 mb-0 text-center">
+          BLOCKCHAIN GROWTH SOLUTIONS SRL - București, Str. Argentina nr. 25
+        </p>
       </div>
     </div>
+
   </div>
 </footer>
